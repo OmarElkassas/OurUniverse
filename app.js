@@ -1,9 +1,98 @@
 const C = window.APP_CONFIG;  if (   !C ||   !C.SUPABASE_URL ||   !C.SUPABASE_KEY ||   C.SUPABASE_URL.includes('PASTE_') ||   C.SUPABASE_KEY.includes('PASTE_') ) {   alert('Supabase is not configured correctly. Check config.js.'); }  const sb = supabase.createClient(   C.SUPABASE_URL,   C.SUPABASE_KEY );let section='dashboard',entries=[],user=null;const sections=[['dashboard','⌂ Dashboard'],['plan','⌁ Future Plans'],['discussion','◌ Discussions'],['game','♟ Couple Games'],['decision','✓ Decisions'],['memory','◇ Memories & Photos'],['bucket','☆ Bucket List'],['date','◷ Important Dates'],['letter','✉ Letters'],['journal','☷ Shared Journal'],['dateidea','♡ Date Ideas']];
 function toast(x){let t=document.querySelector('#toast');t.textContent=x;t.style.display='block';setTimeout(()=>t.style.display='none',2500)}
 async function signup(){let {error}=await sb.auth.signUp({email:email.value,password:password.value});toast(error?error.message:'Account created. Check your email if confirmation is enabled.');}
-async function login(){let {error}=await sb.auth.signInWithPassword({email:email.value,password:password.value});if(error)toast(error.message);else init()}
+async function async function login() {
+  const emailValue = document
+    .getElementById('email')
+    .value
+    .trim();
+
+  const passwordValue = document
+    .getElementById('password')
+    .value;
+
+  if (!emailValue || !passwordValue) {
+    toast('Enter both email and password.');
+    return;
+  }
+
+  try {
+    const { data, error } = await sb.auth.signInWithPassword({
+      email: emailValue,
+      password: passwordValue
+    });
+
+    if (error) {
+      console.error('Login error:', error);
+      toast(error.message);
+      return;
+    }
+
+    if (!data.session) {
+      toast('No login session was created. Confirm your email account.');
+      return;
+    }
+
+    await init();
+  } catch (error) {
+    console.error('Unexpected login error:', error);
+    toast('Login failed: ' + error.message);
+  }
+}
 async function logout(){await sb.auth.signOut();location.reload()}
-async function init(){let {data:{user:u}}=await sb.auth.getUser();if(!u)return;user=u;auth.hidden=true;app.hidden=false;nav.innerHTML=sections.map(x=>`<button data-s="${x[0]}" onclick="show('${x[0]}')">${x[1]}</button>`).join('');fType.innerHTML=sections.slice(1).filter(x=>!['discussion','game'].includes(x[0])).map(x=>`<option value="${x[0]}">${x[1].replace(/^.. /,'')}</option>`).join('');await load();show('dashboard')}
+async function async function init() {
+  try {
+    const {
+      data: { user },
+      error
+    } = await sb.auth.getUser();
+
+    if (error) {
+      throw error;
+    }
+
+    if (!user) {
+      toast('No active user session was found.');
+      return;
+    }
+
+    window.user = user;
+
+    document.getElementById('auth').hidden = true;
+    document.getElementById('app').hidden = false;
+
+    document.getElementById('nav').innerHTML = sections
+      .map(
+        item => `
+          <button
+            data-s="${item[0]}"
+            onclick="show('${item[0]}')"
+          >
+            ${item[1]}
+          </button>
+        `
+      )
+      .join('');
+
+    document.getElementById('fType').innerHTML = sections
+      .slice(1)
+      .filter(item => !['discussion', 'game'].includes(item[0]))
+      .map(
+        item => `
+          <option value="${item[0]}">
+            ${item[1].replace(/^.. /, '')}
+          </option>
+        `
+      )
+      .join('');
+
+    await load();
+    show('dashboard');
+  } catch (error) {
+    console.error('Application loading error:', error);
+    toast('Dashboard loading error: ' + error.message);
+  }
+}
 async function load(){let {data,error}=await sb.from('entries').select('*').eq('archived',false).order('created_at',{ascending:false});if(error)toast(error.message);entries=data||[]}
 function days(a,b){return Math.max(0,Math.ceil((new Date(b)-new Date(a))/864e5))}function esc(s=''){return s.replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]))}
 function show(s){section=s;document.body.classList.remove('open');pageTitle.textContent=sections.find(x=>x[0]===s)?.[1].replace(/^.. /,'')||s;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('active',b.dataset.s===s));if(s==='dashboard')dashboard();else if(s==='discussion'||s==='game')prompts(s);else list(s)}
