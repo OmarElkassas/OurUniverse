@@ -1,63 +1,17 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#171512">
-  <title>Nick &amp; Judy World</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Inter:wght@400;600;800&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./style.css?v=6">
-</head>
-<body>
-  <div id="toast"></div>
-  <section id="auth" class="auth">
-    <div class="authcard">
-      <div class="logo">N <i>&amp;</i> J</div>
-      <h1>Welcome to Nick &amp; Judy World</h1>
-      <p>Our Universe, one plan, memory and laugh at a time.</p>
-      <input id="email" type="email" placeholder="Email" autocomplete="email">
-      <input id="password" type="password" placeholder="Password" autocomplete="current-password">
-      <button id="loginButton" type="button">Enter our universe</button>
-      <button id="signupButton" type="button" class="ghost">Create account</button>
-      <small>Only the two approved accounts should be used.</small>
-    </div>
-  </section>
-  <div id="app" hidden>
-    <aside>
-      <div class="brand">N <i>&amp;</i> J<small>OUR UNIVERSE</small></div>
-      <nav id="nav"></nav>
-      <button id="logoutButton" type="button" class="logout">Sign out</button>
-    </aside>
-    <main>
-      <header>
-        <button id="menuButton" type="button" class="menu">☰</button>
-        <div><small>WELCOME HOME</small><h2 id="pageTitle">Dashboard</h2></div>
-        <button id="addButton" type="button">＋ Add</button>
-      </header>
-      <div id="content"></div>
-    </main>
-  </div>
-  <dialog id="modal">
-    <form id="entryForm">
-      <button id="closeModalButton" type="button" class="x">×</button>
-      <h2>Add to our universe</h2>
-      <select id="fType"></select>
-      <input id="fTitle" placeholder="Title" required>
-      <input id="fCategory" placeholder="Category (you can create a new one)">
-      <textarea id="fDetails" placeholder="Notes, ideas, conclusion or journal text"></textarea>
-      <div class="row">
-        <select id="fStatus"><option>Idea</option><option>Discussing</option><option>Agreed</option><option>In Progress</option><option>Completed</option><option>Pending</option></select>
-        <input id="fDate" type="date">
-        <input id="fBudget" type="number" min="0" step="0.01" placeholder="Budget">
-      </div>
-      <input id="fPhoto" type="file" accept="image/*">
-      <button type="submit">Save permanently</button>
-    </form>
-  </dialog>
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="./config.js?v=6"></script>
-  <script src="./app.js?v=6"></script>
-</body>
-</html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#171512">
+<title>Omar &amp; Habiba | Our Universe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css?v=20">
+</head><body>
+<div id="toast"></div>
+<section id="auth" class="auth"><div class="auth-card"><div class="monogram">O<span>&amp;</span>H</div><p class="eyebrow">OUR UNIVERSE</p><h1>Welcome home</h1><p>A private little world for plans, honest talks, laughter and barakah.</p><input id="email" type="email" placeholder="Email" autocomplete="email"><input id="password" type="password" placeholder="Password" autocomplete="current-password"><button id="loginBtn">Enter our universe</button><button id="signupBtn" class="ghost">Create account</button><small>Only Omar and Habiba’s approved accounts should be used.</small></div></section>
+<div id="app" hidden><aside><div class="side-brand"><div class="monogram">O<span>&amp;</span>H</div><small>OUR UNIVERSE</small></div><nav id="nav"></nav><button id="logoutBtn" class="side-logout">Sign out</button></aside>
+<main><header><button id="menuBtn" class="icon-btn">☰</button><div><span class="eyebrow">WELCOME HOME</span><h2 id="pageTitle">Dashboard</h2></div><button id="pageAddBtn" class="primary">＋ Add</button></header><div id="content"></div></main></div>
+<dialog id="entryDialog"><form id="entryForm"><button type="button" class="dialog-close" data-close="entryDialog">×</button><input id="entryId" type="hidden"><input id="entryParentId" type="hidden"><input id="entryType" type="hidden"><h2 id="entryDialogTitle">Add item</h2><label>Title<input id="entryTitle" required></label><label>Category<input id="entryCategory"></label><label>Notes<textarea id="entryDetails"></textarea></label><div class="form-grid"><label>Status<select id="entryStatus"><option>Idea</option><option>Pending</option><option>Discussing</option><option>Agreed</option><option>In Progress</option><option>Completed</option></select></label><label>Target date<input id="entryDate" type="date"></label><label>Budget<input id="entryBudget" type="number" min="0" step="0.01"></label></div><label>Reference photo<input id="entryPhoto" type="file" accept="image/*"></label><button class="primary" type="submit">Save permanently</button></form></dialog>
+<dialog id="dateDialog"><form id="dateForm"><button type="button" class="dialog-close" data-close="dateDialog">×</button><h2>Update our counters</h2><label>Relationship start date<input id="relationshipDate" type="date" required></label><label>Next meeting date and time<input id="meetingDate" type="datetime-local" required></label><button class="primary" type="submit">Save dates</button></form></dialog>
+<dialog id="deleteDialog"><div class="confirm-box"><h2>Delete this item?</h2><p>This permanently removes the selected item and all sub-items under it.</p><div class="button-row"><button class="ghost" data-close="deleteDialog">Cancel</button><button id="confirmDelete" class="danger">Delete permanently</button></div></div></dialog>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./config.js?v=20"></script><script src="./app.js?v=20"></script>
+</body></html>
