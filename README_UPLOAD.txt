@@ -1,11 +1,9 @@
-OUR UNIVERSE V37 - IPHONE HEADER AND MENU FIX
+OUR UNIVERSE V38 - COMBINED VERIFIED FIX
 
-Upload all files directly to the repository root and replace the existing versions.
+Upload all 10 files directly to the repository root and replace the existing versions.
 
-Fixes:
-- Keeps the Discussion/Game category position fix.
-- Moves the page header below the iPhone status area.
-- Keeps the menu button and dashboard navigation drawer accessible.
-- Adds safe spacing at the top of the navigation drawer.
+V38 includes both fixes together:
+- iPhone header and drawer remain below the status area.
+- Discussion and Game category strips are not rebuilt when a category is selected, so late categories remain visible.
 
-After deployment, open the website in Safari with ?v=37, refresh once, fully close the installed app, then reopen it. If iOS still retains the previous shell, remove the Home Screen app and add it again from Safari.
+After deployment, open the website in Safari with ?v=38 and refresh. Fully close the Home Screen app and reopen it. If the previous app shell remains, remove the Home Screen app and add it again from Safari.
