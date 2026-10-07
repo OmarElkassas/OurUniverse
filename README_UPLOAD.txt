@@ -1,21 +1,7 @@
-OUR UNIVERSE INSTALLABLE IPHONE WEB APP V33
+OUR UNIVERSE V36 - CATEGORY STRIP FIX
 
-Upload every file in this package to the ROOT of the GitHub repository, replacing existing files.
+Upload ALL files directly to the repository root and replace existing versions.
 
-Required files:
-- index.html
-- style.css
-- app.js
-- config.js
-- manifest.webmanifest
-- service-worker.js
-- icon-180.png
-- icon-192.png
-- icon-512.png
+This version fixes Discussions and Games by no longer rebuilding the category strip when a category is selected. The selected late category therefore remains in the same horizontal position.
 
-After deployment, open the website in Safari on iPhone, tap Share, choose Add to Home Screen, enable Open as Web App, then tap Add.
-
-Important:
-- Supabase remains the live data source.
-- The app shell is cached, but live content still needs a connection to Supabase.
-- If an older version appears, close the installed app, reopen Safari, and load the site once with ?v=33.
+After deployment, open the normal website URL once with ?v=36 in Safari, refresh, fully close the Home Screen app, and reopen it.
