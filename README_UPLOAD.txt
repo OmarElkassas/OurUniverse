@@ -1,7 +1,11 @@
-OUR UNIVERSE V36 - CATEGORY STRIP FIX
+OUR UNIVERSE V37 - IPHONE HEADER AND MENU FIX
 
-Upload ALL files directly to the repository root and replace existing versions.
+Upload all files directly to the repository root and replace the existing versions.
 
-This version fixes Discussions and Games by no longer rebuilding the category strip when a category is selected. The selected late category therefore remains in the same horizontal position.
+Fixes:
+- Keeps the Discussion/Game category position fix.
+- Moves the page header below the iPhone status area.
+- Keeps the menu button and dashboard navigation drawer accessible.
+- Adds safe spacing at the top of the navigation drawer.
 
-After deployment, open the normal website URL once with ?v=36 in Safari, refresh, fully close the Home Screen app, and reopen it.
+After deployment, open the website in Safari with ?v=37, refresh once, fully close the installed app, then reopen it. If iOS still retains the previous shell, remove the Home Screen app and add it again from Safari.
