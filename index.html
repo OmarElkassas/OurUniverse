@@ -1,1 +1,214 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#171512"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><title>Omar &amp; Habiba | Our Universe</title><link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"><link rel="stylesheet" href="./style.css?v=38"></head><body><div id="toast"></div><section id="auth" class="auth"><div class="auth-card"><div class="monogram">O<span>&amp;</span>H</div><div class="eyebrow">OUR UNIVERSE</div><h1>Welcome home</h1><p>A private world for plans, honest talks, laughter and barakah.</p><input id="email" type="email" placeholder="Email" autocomplete="email"><input id="password" type="password" placeholder="Password" autocomplete="current-password"><button id="loginBtn">Enter our universe</button><button id="signupBtn" class="ghost">Create account</button></div></section><div id="app" hidden><div id="drawerOverlay" class="drawer-overlay"></div><aside id="drawer"><div class="drawer-head"><div><div class="monogram">O<span>&amp;</span>H</div><small>OUR UNIVERSE</small></div><button id="closeDrawer" class="icon ghost" aria-label="Close menu">×</button></div><nav id="nav"></nav><button id="logoutBtn" class="side-logout">Sign out</button></aside><main><header><button id="menuBtn" class="icon" aria-label="Open menu">☰</button><div class="header-copy"><span class="eyebrow">OUR UNIVERSE</span><h2 id="pageTitle">Home</h2></div><button id="pageAddBtn" class="desktop-add">＋ Add</button></header><div id="content"></div><button id="fab" class="fab" aria-label="Add item">＋</button></main><nav class="bottom-nav" id="bottomNav"><button data-tab="dashboard"><span>⌂</span>Home</button><button data-tab="plan"><span>⌁</span>Plans</button><button data-tab="discussion"><span>◌</span>Talk</button><button data-tab="game"><span>♟</span>Games</button><button id="moreBtn"><span>☰</span>More</button></nav></div><dialog id="entryDialog"><form id="entryForm"><button type="button" class="close" data-close="entryDialog">×</button><input id="entryId" type="hidden"><input id="entryType" type="hidden"><input id="entryParent" type="hidden"><h2 id="entryDialogTitle">Add item</h2><label>Title<input id="entryTitle" required></label><label id="categoryLabel">Category<input id="entryCategory"></label><label>Notes<textarea id="entryDetails"></textarea></label><div class="form-grid"><label>Status<select id="entryStatus"><option>Idea</option><option>Pending</option><option>Discussing</option><option>Agreed</option><option>In Progress</option><option>Completed</option></select></label><label>Target date<input id="entryDate" type="date"></label><label>Budget<input id="entryBudget" type="number" min="0"></label></div><label>Reference photo<input id="entryPhoto" type="file" accept="image/*"></label><button type="submit">Save permanently</button></form></dialog><dialog id="dateDialog"><form id="dateForm"><button type="button" class="close" data-close="dateDialog">×</button><h2>Update our counters</h2><label>Relationship start<input id="relationshipDate" type="date" required></label><label>Next meeting<input id="meetingDate" type="datetime-local" required></label><button type="submit">Save dates</button></form></dialog><dialog id="deleteDialog"><div class="confirm"><h2>Delete this item?</h2><p>This also removes nested sub-items.</p><button class="ghost" data-close="deleteDialog">Cancel</button><button id="confirmDelete" class="danger">Delete permanently</button></div></dialog><script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="./config.js?v=38"></script><script src="./app.js?v=38"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#171512">
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: blob: https://*.supabase.co; connect-src 'self' https://*.supabase.co wss://*.supabase.co; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="color-scheme" content="light">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="O&amp;H">
+  <title>Omar &amp; Habiba | Our Universe</title>
+  <link rel="manifest" href="./manifest.webmanifest?v=39">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="./apple-touch-icon-167x167.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Naskh+Arabic:wght@400;600&amp;display=swap">
+  <link rel="stylesheet" href="./style.css?v=39">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <!-- Sign in -->
+  <section id="auth" class="auth" aria-labelledby="authTitle">
+    <form id="authForm" class="auth-card" novalidate>
+      <div class="monogram" aria-hidden="true">O<span>&amp;</span>H</div>
+      <p class="eyebrow">OUR UNIVERSE</p>
+      <h1 id="authTitle">Welcome home</h1>
+      <p class="auth-lead">A private world for plans, honest talks, laughter and barakah.</p>
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" autocomplete="email" inputmode="email" required>
+      <label for="password">Password</label>
+      <input id="password" name="password" type="password" autocomplete="current-password" required>
+      <p id="authError" class="form-error" role="alert" hidden></p>
+      <button id="loginBtn" type="submit" class="btn primary block">Enter our universe</button>
+      <button id="forgotBtn" type="button" class="btn link">Forgot password?</button>
+    </form>
+  </section>
+
+  <!-- App shell -->
+  <div id="app" class="app" hidden>
+    <div id="drawerOverlay" class="drawer-overlay" aria-hidden="true"></div>
+    <aside id="drawer" class="drawer" aria-label="Main menu">
+      <div class="drawer-head">
+        <div>
+          <div class="monogram small" aria-hidden="true">O<span>&amp;</span>H</div>
+          <small>OUR UNIVERSE</small>
+        </div>
+        <button id="closeDrawer" class="icon-btn on-dark" type="button" aria-label="Close menu">×</button>
+      </div>
+      <nav id="nav" class="side-nav" aria-label="Sections"></nav>
+      <p id="whoami" class="whoami"></p>
+      <button id="logoutBtn" type="button" class="btn side-logout">Sign out</button>
+    </aside>
+
+    <main class="app-main">
+      <header class="topbar">
+        <button id="menuBtn" class="icon-btn" type="button" aria-label="Open menu" aria-controls="drawer" aria-expanded="false">☰</button>
+        <div class="topbar-copy">
+          <span class="eyebrow">OUR UNIVERSE</span>
+          <h2 id="pageTitle">Home</h2>
+        </div>
+        <button id="pageAddBtn" class="btn primary desktop-add" type="button" hidden>＋ Add</button>
+      </header>
+      <div id="content" class="content" tabindex="-1"></div>
+      <button id="fab" class="fab" type="button" aria-label="Add" hidden>＋</button>
+    </main>
+
+    <nav class="bottom-nav" id="bottomNav" aria-label="Quick navigation">
+      <button type="button" data-tab="dashboard"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3.5l8.5 7V20a1 1 0 0 1-1 1H15v-6H9v6H4.5a1 1 0 0 1-1-1z"/></svg>Home</button>
+      <button type="button" data-tab="plan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.5h11M9 12h11M9 17.5h11"/><path d="m3.5 6.5 1.2 1.2L7 5.4M3.5 12l1.2 1.2L7 10.9M3.5 17.5l1.2 1.2L7 16.4"/></svg>Plans</button>
+      <button type="button" data-tab="discussion"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.5a8 8 0 0 1-11.7 7.1L4 20l1.3-4.3a8 8 0 1 1 15.2-4.2z"/></svg>Talk</button>
+      <button type="button" data-tab="game"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3.5"/><path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01M12 12h.01" stroke-width="3"/></svg>Games</button>
+      <button type="button" id="moreBtn" aria-controls="drawer" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>More</button>
+    </nav>
+  </div>
+
+  <!-- Add / edit entry -->
+  <dialog id="entryDialog" class="sheet" aria-labelledby="entryDialogTitle">
+    <form id="entryForm" class="sheet-form" novalidate>
+      <div class="sheet-head">
+        <h2 id="entryDialogTitle">Add</h2>
+        <button type="button" class="icon-btn" data-close="entryDialog" aria-label="Close">×</button>
+      </div>
+      <div class="sheet-body">
+        <p id="entryFormError" class="form-banner" role="alert" hidden></p>
+        <p id="entryFormNote" class="form-note" role="status" hidden></p>
+        <div class="field">
+          <label for="entryTitle">Title</label>
+          <input id="entryTitle" name="title" maxlength="200" required aria-describedby="entryTitleError" dir="auto">
+          <p id="entryTitleError" class="field-error" hidden></p>
+        </div>
+        <div class="field" id="parentField">
+          <label for="entryParent">Inside</label>
+          <select id="entryParent" name="parent"></select>
+        </div>
+        <div class="field" id="categoryField">
+          <label for="entryCategory" id="entryCategoryLabel">Category</label>
+          <input id="entryCategory" name="category" maxlength="80" dir="auto">
+        </div>
+        <div class="field">
+          <label for="entryDetails" id="entryDetailsLabel">Notes</label>
+          <textarea id="entryDetails" name="details" rows="4" dir="auto"></textarea>
+        </div>
+        <div class="form-grid">
+          <div class="field" id="statusField">
+            <label for="entryStatus">Status</label>
+            <select id="entryStatus" name="status"></select>
+          </div>
+          <div class="field" id="dateField">
+            <label for="entryDate" id="entryDateLabel">Target date</label>
+            <input id="entryDate" name="date" type="date" aria-describedby="entryDateError">
+            <p id="entryDateError" class="field-error" hidden></p>
+          </div>
+          <div class="field" id="budgetField">
+            <label for="entryBudget">Budget</label>
+            <input id="entryBudget" name="budget" type="number" min="0" step="any" inputmode="decimal">
+          </div>
+        </div>
+        <label class="check-row" id="repeatField"><input id="entryRepeat" type="checkbox"> Repeats every year</label>
+        <div class="field" id="photoField">
+          <label for="entryPhoto">Photo</label>
+          <input id="entryPhoto" type="file" accept="image/*">
+          <p class="hint">Private to the two of you. Large photos are resized before upload.</p>
+          <div id="photoCurrent" class="photo-current" hidden>
+            <img id="photoPreview" alt="Current photo">
+            <label class="check-row"><input id="entryRemovePhoto" type="checkbox"> Remove this photo</label>
+          </div>
+        </div>
+      </div>
+      <div class="sheet-actions">
+        <button type="button" id="entryDeleteBtn" class="btn danger-ghost" hidden>Delete</button>
+        <span class="spacer"></span>
+        <button type="button" class="btn ghost" data-close="entryDialog">Cancel</button>
+        <button type="submit" id="entrySaveBtn" class="btn primary">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Dates -->
+  <dialog id="dateDialog" class="sheet" aria-labelledby="dateDialogTitle">
+    <form id="dateForm" class="sheet-form" novalidate>
+      <div class="sheet-head">
+        <h2 id="dateDialogTitle">Our dates</h2>
+        <button type="button" class="icon-btn" data-close="dateDialog" aria-label="Close">×</button>
+      </div>
+      <div class="sheet-body">
+        <p id="dateFormError" class="form-banner" role="alert" hidden></p>
+        <div class="field">
+          <label for="relationshipDate">Together since</label>
+          <input id="relationshipDate" type="date" required>
+        </div>
+        <div class="field">
+          <label for="meetingDate">Next meeting</label>
+          <input id="meetingDate" type="datetime-local">
+          <p class="hint">Leave empty if the next visit isn't booked yet.</p>
+        </div>
+      </div>
+      <div class="sheet-actions">
+        <span class="spacer"></span>
+        <button type="button" class="btn ghost" data-close="dateDialog">Cancel</button>
+        <button type="submit" class="btn primary">Save dates</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Confirm (delete, reset) -->
+  <dialog id="confirmDialog" class="sheet confirm" aria-labelledby="confirmTitle" aria-describedby="confirmText">
+    <div class="sheet-form">
+      <div class="sheet-body">
+        <h2 id="confirmTitle">Are you sure?</h2>
+        <p id="confirmText" dir="auto"></p>
+        <ul id="confirmList" class="confirm-list" dir="auto"></ul>
+      </div>
+      <div class="sheet-actions">
+        <span class="spacer"></span>
+        <button type="button" class="btn ghost" id="confirmCancel">Cancel</button>
+        <button type="button" class="btn danger" id="confirmOk">Delete</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- New password (after a reset link) -->
+  <dialog id="passwordDialog" class="sheet" aria-labelledby="passwordTitle">
+    <form id="passwordForm" class="sheet-form" novalidate>
+      <div class="sheet-head"><h2 id="passwordTitle">Choose a new password</h2></div>
+      <div class="sheet-body">
+        <p id="passwordError" class="form-banner" role="alert" hidden></p>
+        <div class="field">
+          <label for="newPassword">New password</label>
+          <input id="newPassword" type="password" autocomplete="new-password" minlength="8" required>
+          <p class="hint">At least 8 characters.</p>
+        </div>
+      </div>
+      <div class="sheet-actions">
+        <span class="spacer"></span>
+        <button type="submit" class="btn primary">Save password</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0"></script>
+  <script src="./config.js?v=39"></script>
+  <script src="./app.js?v=39"></script>
+</body>
+</html>
