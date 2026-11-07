@@ -12,7 +12,7 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="O&amp;H">
   <title>Omar &amp; Habiba | Our Universe</title>
-  <link rel="manifest" href="./manifest.webmanifest?v=39">
+  <link rel="manifest" href="./manifest.webmanifest?v=40">
   <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png">
   <link rel="apple-touch-icon" href="./apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="120x120" href="./apple-touch-icon-120x120.png">
@@ -22,7 +22,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&amp;family=Inter:wght@400;500;600;700;800&amp;family=Noto+Naskh+Arabic:wght@400;600&amp;display=swap">
-  <link rel="stylesheet" href="./style.css?v=39">
+  <link rel="stylesheet" href="./style.css?v=40">
 </head>
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
@@ -77,9 +77,9 @@
     <nav class="bottom-nav" id="bottomNav" aria-label="Quick navigation">
       <button type="button" data-tab="dashboard"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3.5l8.5 7V20a1 1 0 0 1-1 1H15v-6H9v6H4.5a1 1 0 0 1-1-1z"/></svg>Home</button>
       <button type="button" data-tab="plan"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6.5h11M9 12h11M9 17.5h11"/><path d="m3.5 6.5 1.2 1.2L7 5.4M3.5 12l1.2 1.2L7 10.9M3.5 17.5l1.2 1.2L7 16.4"/></svg>Plans</button>
+      <button type="button" data-tab="together"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.6"/><ellipse cx="12" cy="12" rx="9.5" ry="4.2" transform="rotate(-25 12 12)"/><path d="M19 4.5h.01M5 19.5h.01" stroke-width="3"/></svg>Together<span class="tab-badge" id="tvBadge" hidden></span></button>
       <button type="button" data-tab="discussion"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.5a8 8 0 0 1-11.7 7.1L4 20l1.3-4.3a8 8 0 1 1 15.2-4.2z"/></svg>Talk</button>
       <button type="button" data-tab="game"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3.5"/><path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01M12 12h.01" stroke-width="3"/></svg>Games</button>
-      <button type="button" id="moreBtn" aria-controls="drawer" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>More</button>
     </nav>
   </div>
 
@@ -188,6 +188,27 @@
     </div>
   </dialog>
 
+  <!-- Togetherverse sheet: one reusable form dialog for every mode -->
+  <dialog id="tvDialog" class="sheet" aria-labelledby="tvDialogTitle">
+    <form id="tvForm" class="sheet-form" novalidate>
+      <div class="sheet-head">
+        <h2 id="tvDialogTitle">Togetherverse</h2>
+        <button type="button" class="icon-btn" data-close="tvDialog" aria-label="Close">×</button>
+      </div>
+      <div class="sheet-body">
+        <p id="tvFormError" class="form-banner" role="alert" hidden></p>
+        <div id="tvFormBody"></div>
+      </div>
+      <div class="sheet-actions">
+        <span class="spacer"></span>
+        <button type="button" class="btn ghost" data-close="tvDialog" id="tvCancel">Cancel</button>
+        <button type="submit" class="btn primary" id="tvSubmit">Save</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="tvCelebrate" class="tv-celebrate" aria-hidden="true" hidden><div class="tv-celebrate-card"><span class="tv-orbit" aria-hidden="true"></span><p id="tvCelebrateText"></p></div></div>
+
   <!-- New password (after a reset link) -->
   <dialog id="passwordDialog" class="sheet" aria-labelledby="passwordTitle">
     <form id="passwordForm" class="sheet-form" novalidate>
@@ -208,7 +229,8 @@
   </dialog>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.118.0"></script>
-  <script src="./config.js?v=39"></script>
-  <script src="./app.js?v=39"></script>
+  <script src="./config.js?v=40"></script>
+  <script src="./app.js?v=40"></script>
+  <script src="./togetherverse.js?v=40"></script>
 </body>
 </html>

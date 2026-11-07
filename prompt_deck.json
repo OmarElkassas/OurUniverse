@@ -1,0 +1,4898 @@
+{
+  "$schema_note": "Our Universe prompt deck. Edit here, then run tools/validate_deck.py and tools/build_seed_sql.py.",
+  "version": "2026-11-03",
+  "categories": [
+    {
+      "slug": "everyday-life",
+      "kind": "discussion",
+      "name": "Everyday Life",
+      "description": "Routines, habits and the small preferences that shape an ordinary day.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "everyday-life-001",
+          "text": "When you've had a difficult day, would you rather talk about it straight away or have some quiet time first?"
+        },
+        {
+          "id": "everyday-life-002",
+          "text": "What does your ideal weekday evening look like after work?"
+        },
+        {
+          "id": "everyday-life-003",
+          "text": "Are you at your best early in the morning or late at night?"
+        },
+        {
+          "id": "everyday-life-004",
+          "text": "How many hours of sleep do you need to feel like yourself?"
+        },
+        {
+          "id": "everyday-life-005",
+          "text": "What's a small habit of yours that people notice quickly?"
+        },
+        {
+          "id": "everyday-life-006",
+          "text": "How do you like to spend the first hour after you wake up?"
+        },
+        {
+          "id": "everyday-life-007",
+          "text": "What's your go-to meal when you're too tired to cook?"
+        },
+        {
+          "id": "everyday-life-008",
+          "text": "Do you prefer planning your week in advance or deciding as you go?"
+        },
+        {
+          "id": "everyday-life-009",
+          "text": "What do you usually do when you can't fall asleep?"
+        },
+        {
+          "id": "everyday-life-010",
+          "text": "Which day of the week do you enjoy most, and why?"
+        },
+        {
+          "id": "everyday-life-011",
+          "text": "How tidy does a room need to be before you can relax in it?"
+        },
+        {
+          "id": "everyday-life-012",
+          "text": "What's one thing that instantly makes an ordinary day better?"
+        },
+        {
+          "id": "everyday-life-013",
+          "text": "Do you need silence to concentrate, or do you like some background noise?"
+        },
+        {
+          "id": "everyday-life-014",
+          "text": "What do you always check you have before leaving the house?"
+        },
+        {
+          "id": "everyday-life-015",
+          "text": "What time of day do you get your best work done?"
+        },
+        {
+          "id": "everyday-life-016",
+          "text": "Which chore do you secretly find satisfying?"
+        },
+        {
+          "id": "everyday-life-017",
+          "text": "How do you usually unwind after a stressful week?"
+        },
+        {
+          "id": "everyday-life-018",
+          "text": "What's a food you could eat every day without getting bored?"
+        },
+        {
+          "id": "everyday-life-019",
+          "text": "When you're ill, do you want company or to be left alone to rest?"
+        },
+        {
+          "id": "everyday-life-020",
+          "text": "What's your usual order at a café?"
+        },
+        {
+          "id": "everyday-life-021",
+          "text": "How early do you like to arrive when you're meeting someone?"
+        },
+        {
+          "id": "everyday-life-022",
+          "text": "What's the longest you've kept up a daily habit?"
+        },
+        {
+          "id": "everyday-life-023",
+          "text": "What do you do on days when you have no energy at all?"
+        },
+        {
+          "id": "everyday-life-024",
+          "text": "How do you like to mark a small win, like finishing a hard task?"
+        },
+        {
+          "id": "everyday-life-025",
+          "text": "Do you work better from a written to-do list or by keeping things in your head?"
+        },
+        {
+          "id": "everyday-life-026",
+          "text": "How do you feel about eating dinner late at night?"
+        },
+        {
+          "id": "everyday-life-027",
+          "text": "If you could change one thing about your current routine, what would it be?"
+        },
+        {
+          "id": "everyday-life-028",
+          "text": "How much time on your own do you need in a normal week?"
+        },
+        {
+          "id": "everyday-life-029",
+          "text": "When you're hungry and grumpy, what's the most helpful thing someone can do?"
+        },
+        {
+          "id": "everyday-life-030",
+          "text": "How often do you like to eat out in a normal month?"
+        },
+        {
+          "id": "everyday-life-031",
+          "text": "Which part of your day do you look forward to most?"
+        },
+        {
+          "id": "everyday-life-032",
+          "text": "How long do you usually spend on your phone before bed?"
+        },
+        {
+          "id": "everyday-life-033",
+          "text": "What's a weekend habit from your childhood that you still keep?"
+        },
+        {
+          "id": "everyday-life-034",
+          "text": "How do you handle a day when plans suddenly change?"
+        },
+        {
+          "id": "everyday-life-035",
+          "text": "What's a task you always put off, even though it only takes five minutes?"
+        },
+        {
+          "id": "everyday-life-036",
+          "text": "How do you prefer to get around a city: walking, driving or taxis?"
+        }
+      ],
+      "sort_order": 10
+    },
+    {
+      "slug": "home-together",
+      "kind": "discussion",
+      "name": "Home Together",
+      "description": "How we'll set up and run the home we share.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "home-together-001",
+          "text": "Which household task do you dislike most?"
+        },
+        {
+          "id": "home-together-002",
+          "text": "How should we split the cooking in a normal week?"
+        },
+        {
+          "id": "home-together-003",
+          "text": "How often would you like to have guests over?"
+        },
+        {
+          "id": "home-together-004",
+          "text": "How do you feel about having a cleaner come in regularly?"
+        },
+        {
+          "id": "home-together-005",
+          "text": "Do you prefer a home that feels minimal, or one full of things with stories behind them?"
+        },
+        {
+          "id": "home-together-006",
+          "text": "What's one thing from your current room you'd definitely bring into our home?"
+        },
+        {
+          "id": "home-together-007",
+          "text": "Should shoes come off at the door in our home?"
+        },
+        {
+          "id": "home-together-008",
+          "text": "What temperature do you like the bedroom to be at night?"
+        },
+        {
+          "id": "home-together-009",
+          "text": "When something breaks at home, should we try to fix it ourselves first or call someone straight away?"
+        },
+        {
+          "id": "home-together-010",
+          "text": "How do you like the kitchen to be left after dinner?"
+        },
+        {
+          "id": "home-together-011",
+          "text": "Is there a colour you'd never want on our walls?"
+        },
+        {
+          "id": "home-together-012",
+          "text": "Would you rather have a bigger living room or a bigger kitchen?"
+        },
+        {
+          "id": "home-together-013",
+          "text": "How do you feel about having a pet at home?"
+        },
+        {
+          "id": "home-together-014",
+          "text": "Would you rather furnish the whole place at once or slowly over the first year?"
+        },
+        {
+          "id": "home-together-015",
+          "text": "How should we handle laundry: together, taking turns, or whoever has time?"
+        },
+        {
+          "id": "home-together-016",
+          "text": "What does a cosy evening at home look like for you?"
+        },
+        {
+          "id": "home-together-017",
+          "text": "Do you want a TV in the bedroom?"
+        },
+        {
+          "id": "home-together-018",
+          "text": "How important is a balcony or outdoor space to you?"
+        },
+        {
+          "id": "home-together-019",
+          "text": "How should we choose furniture when we like different styles?"
+        },
+        {
+          "id": "home-together-020",
+          "text": "What's a house rule from your family home that you want to keep in ours?"
+        },
+        {
+          "id": "home-together-021",
+          "text": "How often should we do a proper deep clean?"
+        },
+        {
+          "id": "home-together-022",
+          "text": "Where should keys, bags and shoes live when we come through the door?"
+        },
+        {
+          "id": "home-together-023",
+          "text": "How would you feel about family staying with us for a week or longer?"
+        },
+        {
+          "id": "home-together-024",
+          "text": "Would you want a guest room, or would you rather use that space for something else?"
+        },
+        {
+          "id": "home-together-025",
+          "text": "One big grocery shop a week, or little and often?"
+        },
+        {
+          "id": "home-together-026",
+          "text": "On a workday, what do you picture our mornings at home being like?"
+        },
+        {
+          "id": "home-together-027",
+          "text": "Would you like our home to have lots of plants?"
+        },
+        {
+          "id": "home-together-028",
+          "text": "What do you want the first meal we cook in our new home to be?"
+        },
+        {
+          "id": "home-together-029",
+          "text": "What kind of lighting makes a room feel comfortable to you?"
+        },
+        {
+          "id": "home-together-030",
+          "text": "Which small habit at home, like leaving cupboard doors open, would bother you most over time?"
+        },
+        {
+          "id": "home-together-031",
+          "text": "How much storage space do you need for your own things?"
+        },
+        {
+          "id": "home-together-032",
+          "text": "What does a work corner at home need before you'll actually use it?"
+        },
+        {
+          "id": "home-together-033",
+          "text": "Would you rather live somewhere quiet with a longer commute, or somewhere central and busier?"
+        },
+        {
+          "id": "home-together-034",
+          "text": "How do you feel about cooking big batches for the week instead of cooking fresh every day?"
+        },
+        {
+          "id": "home-together-035",
+          "text": "What's the first thing you like to offer guests when they arrive?"
+        },
+        {
+          "id": "home-together-036",
+          "text": "What would make our home feel finished to you?"
+        }
+      ],
+      "sort_order": 20
+    },
+    {
+      "slug": "money",
+      "kind": "discussion",
+      "name": "Money",
+      "description": "Budgets, saving, spending and the decisions behind them.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "money-001",
+          "text": "If one of us needs to cut spending for three months, what should be reduced first?"
+        },
+        {
+          "id": "money-002",
+          "text": "If we disagree about a large purchase, what should happen before either of us buys it?"
+        },
+        {
+          "id": "money-003",
+          "text": "Above what amount should we check with each other before spending?"
+        },
+        {
+          "id": "money-004",
+          "text": "Joint account, separate accounts, or a mix of both: which makes most sense to you?"
+        },
+        {
+          "id": "money-005",
+          "text": "What share of our income feels sensible to save each month?"
+        },
+        {
+          "id": "money-006",
+          "text": "What's something you think is worth spending more on?"
+        },
+        {
+          "id": "money-007",
+          "text": "How did your family talk about money when you were growing up?"
+        },
+        {
+          "id": "money-008",
+          "text": "How do you feel about financing big purchases, like a car or a home?"
+        },
+        {
+          "id": "money-009",
+          "text": "How much should we spend on Eid gifts for each other's families?"
+        },
+        {
+          "id": "money-010",
+          "text": "Would you rather spend on experiences or on things?"
+        },
+        {
+          "id": "money-011",
+          "text": "How big should our emergency savings be before we feel comfortable?"
+        },
+        {
+          "id": "money-012",
+          "text": "What's the biggest purchase you've made on your own so far?"
+        },
+        {
+          "id": "money-013",
+          "text": "If we received an unexpected bonus, what would you want to do with it?"
+        },
+        {
+          "id": "money-014",
+          "text": "How do you feel about lending money to friends or relatives?"
+        },
+        {
+          "id": "money-015",
+          "text": "How often should we sit down together to look at our budget?"
+        },
+        {
+          "id": "money-016",
+          "text": "Who should keep track of bills and payments, or should we share it?"
+        },
+        {
+          "id": "money-017",
+          "text": "What's a financial goal you'd like us to reach in our first five years?"
+        },
+        {
+          "id": "money-018",
+          "text": "Which conveniences, like delivery or taxis, are worth paying for to you?"
+        },
+        {
+          "id": "money-019",
+          "text": "Should each of us have a monthly amount to spend without having to explain it?"
+        },
+        {
+          "id": "money-020",
+          "text": "Are you more of a saver or a spender?"
+        },
+        {
+          "id": "money-021",
+          "text": "What's one money habit you'd like to improve?"
+        },
+        {
+          "id": "money-022",
+          "text": "How do you feel about investing in things like stocks, property or gold?"
+        },
+        {
+          "id": "money-023",
+          "text": "What's the best value-for-money thing you've ever bought?"
+        },
+        {
+          "id": "money-024",
+          "text": "How much is reasonable to spend on a birthday present for each other?"
+        },
+        {
+          "id": "money-025",
+          "text": "Should we set a yearly travel budget?"
+        },
+        {
+          "id": "money-026",
+          "text": "How would you feel if one of us earned much more than the other?"
+        },
+        {
+          "id": "money-027",
+          "text": "If either of our parents needs financial support, how should we decide how much to give?"
+        },
+        {
+          "id": "money-028",
+          "text": "What do you think about buying things second-hand?"
+        },
+        {
+          "id": "money-029",
+          "text": "Which subscription would you keep even if we had to cut back?"
+        },
+        {
+          "id": "money-030",
+          "text": "When you buy something expensive, do you research for weeks or decide quickly?"
+        },
+        {
+          "id": "money-031",
+          "text": "What did you learn about money from your first salary?"
+        },
+        {
+          "id": "money-032",
+          "text": "How much do you want to know about each other's savings and debts before the wedding?"
+        },
+        {
+          "id": "money-033",
+          "text": "If we could only afford one, would you choose a bigger home or more travel?"
+        },
+        {
+          "id": "money-034",
+          "text": "What should we do if one of us goes over budget in a month?"
+        },
+        {
+          "id": "money-035",
+          "text": "Which small expense quietly adds up for you every month?"
+        }
+      ],
+      "sort_order": 30
+    },
+    {
+      "slug": "family-friends",
+      "kind": "discussion",
+      "name": "Family & Friends",
+      "description": "Both families, friends, visits and where our privacy starts.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "family-friends-001",
+          "text": "How should we handle it when both families invite us on the same day?"
+        },
+        {
+          "id": "family-friends-002",
+          "text": "How often would you like to visit your family once we're married?"
+        },
+        {
+          "id": "family-friends-003",
+          "text": "What's a family tradition you'd love us to continue?"
+        },
+        {
+          "id": "family-friends-004",
+          "text": "How do you feel about relatives dropping by without calling first?"
+        },
+        {
+          "id": "family-friends-005",
+          "text": "What's the best way for me to get closer to your parents?"
+        },
+        {
+          "id": "family-friends-006",
+          "text": "Which relative are you closest to, and what makes that relationship easy?"
+        },
+        {
+          "id": "family-friends-007",
+          "text": "How involved should our parents be in decisions about our home?"
+        },
+        {
+          "id": "family-friends-008",
+          "text": "If a family member gives advice we don't agree with, how should we respond?"
+        },
+        {
+          "id": "family-friends-009",
+          "text": "How should we split Eid between both families?"
+        },
+        {
+          "id": "family-friends-010",
+          "text": "What should I know before spending a long stretch of time with your family?"
+        },
+        {
+          "id": "family-friends-011",
+          "text": "Which friend of yours do you most want me to get to know?"
+        },
+        {
+          "id": "family-friends-012",
+          "text": "How much time with friends, without each other, feels right in a normal month?"
+        },
+        {
+          "id": "family-friends-013",
+          "text": "What feels comfortable to you when it comes to friendships with the opposite gender after marriage?"
+        },
+        {
+          "id": "family-friends-014",
+          "text": "What should we do if one of us doesn't get along with a friend of the other?"
+        },
+        {
+          "id": "family-friends-015",
+          "text": "What role would you like grandparents to play if we have children?"
+        },
+        {
+          "id": "family-friends-016",
+          "text": "How should we answer when relatives ask about private things, like money or when we'll have children?"
+        },
+        {
+          "id": "family-friends-017",
+          "text": "What do you admire most about how your parents treat each other?"
+        },
+        {
+          "id": "family-friends-018",
+          "text": "What's something your family does differently from most families you know?"
+        },
+        {
+          "id": "family-friends-019",
+          "text": "How often do you talk to your siblings in a normal week?"
+        },
+        {
+          "id": "family-friends-020",
+          "text": "Would you be happy living close to either of our families?"
+        },
+        {
+          "id": "family-friends-021",
+          "text": "How does your family usually celebrate birthdays?"
+        },
+        {
+          "id": "family-friends-022",
+          "text": "Should we share big news, like the wedding date, with both families together or separately?"
+        },
+        {
+          "id": "family-friends-023",
+          "text": "What's one thing you'd like my family to understand about you?"
+        },
+        {
+          "id": "family-friends-024",
+          "text": "Who in your family gives the best advice?"
+        },
+        {
+          "id": "family-friends-025",
+          "text": "Which family gathering do you always look forward to?"
+        },
+        {
+          "id": "family-friends-026",
+          "text": "How do you feel about hosting big family gatherings at our home?"
+        },
+        {
+          "id": "family-friends-027",
+          "text": "How much should we tell our families when we disagree about something?"
+        },
+        {
+          "id": "family-friends-028",
+          "text": "Which member of my family do you think you'll get along with most easily?"
+        },
+        {
+          "id": "family-friends-029",
+          "text": "How do you feel about going on holiday as a group with friends or family?"
+        },
+        {
+          "id": "family-friends-030",
+          "text": "What kind of relationship would you like with your in-laws: close, friendly, or more formal?"
+        },
+        {
+          "id": "family-friends-031",
+          "text": "How should we support a family member who is going through a hard time?"
+        },
+        {
+          "id": "family-friends-032",
+          "text": "Which family recipe would you most like to learn to make?"
+        },
+        {
+          "id": "family-friends-033",
+          "text": "How should we handle gifts for nieces, nephews and younger cousins?"
+        },
+        {
+          "id": "family-friends-034",
+          "text": "How should we balance weekend plans between friends and family?"
+        },
+        {
+          "id": "family-friends-035",
+          "text": "What do you hope our parents will say about us in ten years?"
+        }
+      ],
+      "sort_order": 40
+    },
+    {
+      "slug": "faith-values",
+      "kind": "discussion",
+      "name": "Faith & Values",
+      "description": "Worship, character and the values we want at home.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "faith-values-001",
+          "text": "Is there a prayer of the day you'd especially like us to share at home?"
+        },
+        {
+          "id": "faith-values-002",
+          "text": "Which Ramadan tradition from your family do you want to keep in our home?"
+        },
+        {
+          "id": "faith-values-003",
+          "text": "How would you like us to give charity as a household?"
+        },
+        {
+          "id": "faith-values-004",
+          "text": "What do you most want people to feel when they visit our home?"
+        },
+        {
+          "id": "faith-values-005",
+          "text": "How would you like us to spend Fridays once we're married?"
+        },
+        {
+          "id": "faith-values-006",
+          "text": "What's one thing about yourself you're working on this year?"
+        },
+        {
+          "id": "faith-values-007",
+          "text": "Which act of worship would you like more help staying consistent with?"
+        },
+        {
+          "id": "faith-values-008",
+          "text": "How would you like us to keep learning about our faith together?"
+        },
+        {
+          "id": "faith-values-009",
+          "text": "Whose character would you most like to be more like?"
+        },
+        {
+          "id": "faith-values-010",
+          "text": "When the truth might hurt someone, how do you decide what to say?"
+        },
+        {
+          "id": "faith-values-011",
+          "text": "Is there a dua that means a lot to you?"
+        },
+        {
+          "id": "faith-values-012",
+          "text": "What values do you most want to pass on to our children?"
+        },
+        {
+          "id": "faith-values-013",
+          "text": "What's one thing you'd never want us to compromise on in how we treat each other?"
+        },
+        {
+          "id": "faith-values-014",
+          "text": "How would you like us to spend the last ten nights of Ramadan?"
+        },
+        {
+          "id": "faith-values-015",
+          "text": "Is going on Umrah together something you'd like us to plan for?"
+        },
+        {
+          "id": "faith-values-016",
+          "text": "How should we handle invitations to events that don't sit right with our values?"
+        },
+        {
+          "id": "faith-values-017",
+          "text": "When in your life have you felt your faith most strongly?"
+        },
+        {
+          "id": "faith-values-018",
+          "text": "Would you like us to have a regular time for reading Quran together?"
+        },
+        {
+          "id": "faith-values-019",
+          "text": "What do you think makes someone truly generous?"
+        },
+        {
+          "id": "faith-values-020",
+          "text": "How should we treat people who work for us, like cleaners or drivers?"
+        },
+        {
+          "id": "faith-values-021",
+          "text": "What's one thing a good neighbour always does?"
+        },
+        {
+          "id": "faith-values-022",
+          "text": "What's a lesson from your parents that you still live by?"
+        },
+        {
+          "id": "faith-values-023",
+          "text": "Would you enjoy naming one thing we're grateful for before we sleep each night?"
+        },
+        {
+          "id": "faith-values-024",
+          "text": "What's something you've changed your mind about as you've grown older?"
+        },
+        {
+          "id": "faith-values-025",
+          "text": "What does barakah in a home mean to you in practical terms?"
+        },
+        {
+          "id": "faith-values-026",
+          "text": "Which sunnah would you love to make part of our daily life?"
+        },
+        {
+          "id": "faith-values-027",
+          "text": "Would you like us to fast some voluntary days together, like the day of Arafah?"
+        },
+        {
+          "id": "faith-values-028",
+          "text": "Who should we turn to for advice when we face a big decision?"
+        },
+        {
+          "id": "faith-values-029",
+          "text": "What's one way you'd like us to serve our community?"
+        },
+        {
+          "id": "faith-values-030",
+          "text": "Which story of the prophets do you find yourself coming back to?"
+        },
+        {
+          "id": "faith-values-031",
+          "text": "How should we support each other when one of us feels less motivated in their faith for a while?"
+        },
+        {
+          "id": "faith-values-032",
+          "text": "How should we balance generosity to others with saving for our own future?"
+        }
+      ],
+      "sort_order": 50
+    },
+    {
+      "slug": "talking-making-up",
+      "kind": "discussion",
+      "name": "Talking & Making Up",
+      "description": "How we talk, disagree, apologise and reconnect.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "talking-making-up-001",
+          "text": "When we disagree, do you need a break first, or would you rather sort it out straight away?"
+        },
+        {
+          "id": "talking-making-up-002",
+          "text": "If something you said upset me, how would you like me to tell you?"
+        },
+        {
+          "id": "talking-making-up-003",
+          "text": "How do you usually show that you're sorry?"
+        },
+        {
+          "id": "talking-making-up-004",
+          "text": "What makes an apology feel sincere to you?"
+        },
+        {
+          "id": "talking-making-up-005",
+          "text": "When you're stressed, what's one small thing I can do that actually helps?"
+        },
+        {
+          "id": "talking-making-up-006",
+          "text": "Do you prefer hearing difficult news by message, on a call, or in person?"
+        },
+        {
+          "id": "talking-making-up-007",
+          "text": "How long is too long to stay quiet after an argument?"
+        },
+        {
+          "id": "talking-making-up-008",
+          "text": "When you're upset, what's the worst thing someone can say to you?"
+        },
+        {
+          "id": "talking-making-up-009",
+          "text": "Should we have a rule about not going to sleep angry?"
+        },
+        {
+          "id": "talking-making-up-010",
+          "text": "Which topic do you find hardest to talk about?"
+        },
+        {
+          "id": "talking-making-up-011",
+          "text": "When you vent, do you want advice, or do you want me to just listen?"
+        },
+        {
+          "id": "talking-making-up-012",
+          "text": "How can I tell when you're upset but not saying it?"
+        },
+        {
+          "id": "talking-making-up-013",
+          "text": "Which words of reassurance mean the most to you?"
+        },
+        {
+          "id": "talking-making-up-014",
+          "text": "How do you feel about using humour to ease the tension in a disagreement?"
+        },
+        {
+          "id": "talking-making-up-015",
+          "text": "What's a sign that you need some space?"
+        },
+        {
+          "id": "talking-making-up-016",
+          "text": "If we're both tired and short-tempered, what should we agree to do?"
+        },
+        {
+          "id": "talking-making-up-017",
+          "text": "What's your first reaction when you feel criticised?"
+        },
+        {
+          "id": "talking-making-up-018",
+          "text": "How should we handle it when one of us is late and the other has been waiting?"
+        },
+        {
+          "id": "talking-making-up-019",
+          "text": "Do you prefer compliments said out loud, written down, or in front of others?"
+        },
+        {
+          "id": "talking-making-up-020",
+          "text": "After an argument, what helps you feel close again?"
+        },
+        {
+          "id": "talking-making-up-021",
+          "text": "Should we have a phrase that means \"let's pause this and come back to it\"?"
+        },
+        {
+          "id": "talking-making-up-022",
+          "text": "What's something you wish people asked you about more often?"
+        },
+        {
+          "id": "talking-making-up-023",
+          "text": "When we both feel strongly and can't agree, how should the decision be made?"
+        },
+        {
+          "id": "talking-making-up-024",
+          "text": "How should we talk about jealousy if one of us ever feels it?"
+        },
+        {
+          "id": "talking-making-up-025",
+          "text": "Would you like a regular time, say once a month, to talk about how we're doing?"
+        },
+        {
+          "id": "talking-making-up-026",
+          "text": "Which tone of voice puts you on the defensive straight away?"
+        },
+        {
+          "id": "talking-making-up-027",
+          "text": "When is it better to let a disagreement go rather than resolve it?"
+        },
+        {
+          "id": "talking-making-up-028",
+          "text": "What's the kindest way to say no to you?"
+        },
+        {
+          "id": "talking-making-up-029",
+          "text": "If I forget something important to you, how would you like me to make it right?"
+        },
+        {
+          "id": "talking-making-up-030",
+          "text": "If a disagreement starts over text, should we stop and switch to a call?"
+        },
+        {
+          "id": "talking-making-up-031",
+          "text": "Which misunderstanding between us makes you laugh now?"
+        },
+        {
+          "id": "talking-making-up-032",
+          "text": "How do you like to be thanked when you've done something for someone?"
+        }
+      ],
+      "sort_order": 60
+    },
+    {
+      "slug": "marriage-planning",
+      "kind": "discussion",
+      "name": "Marriage Planning",
+      "description": "كتب الكتاب, the wedding, the honeymoon and the first year.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "marriage-planning-001",
+          "text": "Which part of planning the wedding do you want to be most involved in?"
+        },
+        {
+          "id": "marriage-planning-002",
+          "text": "How big would you like our كتب الكتاب to be?"
+        },
+        {
+          "id": "marriage-planning-003",
+          "text": "Would you rather have a smaller wedding and a longer honeymoon, or the other way round?"
+        },
+        {
+          "id": "marriage-planning-004",
+          "text": "Who should be the first to hear once the wedding date is fixed?"
+        },
+        {
+          "id": "marriage-planning-005",
+          "text": "Which wedding tradition do you definitely want to keep?"
+        },
+        {
+          "id": "marriage-planning-006",
+          "text": "How long would you like the honeymoon to be?"
+        },
+        {
+          "id": "marriage-planning-007",
+          "text": "For the honeymoon, do you picture a beach, a city, or somewhere in nature?"
+        },
+        {
+          "id": "marriage-planning-008",
+          "text": "How involved should our families be in choosing the venue?"
+        },
+        {
+          "id": "marriage-planning-009",
+          "text": "What's your ideal number of guests at the wedding?"
+        },
+        {
+          "id": "marriage-planning-010",
+          "text": "Should the wedding and كتب الكتاب be on the same day or on separate days?"
+        },
+        {
+          "id": "marriage-planning-011",
+          "text": "What kind of music do you imagine at the wedding?"
+        },
+        {
+          "id": "marriage-planning-012",
+          "text": "How should we agree on a wedding budget before we start booking anything?"
+        },
+        {
+          "id": "marriage-planning-013",
+          "text": "Which wedding detail do you care least about?"
+        },
+        {
+          "id": "marriage-planning-014",
+          "text": "What would you like us to do in our first month of marriage?"
+        },
+        {
+          "id": "marriage-planning-015",
+          "text": "Do you want a photographer who poses everything, or one who captures moments as they happen?"
+        },
+        {
+          "id": "marriage-planning-016",
+          "text": "What would make the wedding feel like ours rather than just another wedding?"
+        },
+        {
+          "id": "marriage-planning-017",
+          "text": "How should we handle relatives who expect an invitation we can't give?"
+        },
+        {
+          "id": "marriage-planning-018",
+          "text": "How would you like to spend the night before the wedding?"
+        },
+        {
+          "id": "marriage-planning-019",
+          "text": "Which wedding you've attended do you think was done really well?"
+        },
+        {
+          "id": "marriage-planning-020",
+          "text": "What food has to be served at our wedding?"
+        },
+        {
+          "id": "marriage-planning-021",
+          "text": "Would you prefer a wedding near family or a destination wedding?"
+        },
+        {
+          "id": "marriage-planning-022",
+          "text": "Which wedding decisions should be ours alone?"
+        },
+        {
+          "id": "marriage-planning-023",
+          "text": "How many days off work would you want around the wedding?"
+        },
+        {
+          "id": "marriage-planning-024",
+          "text": "What do you want our first Ramadan as a married couple to be like?"
+        },
+        {
+          "id": "marriage-planning-025",
+          "text": "What's one thing you want us to agree on before the wedding rather than after?"
+        },
+        {
+          "id": "marriage-planning-026",
+          "text": "Who do you think should be involved in decisions about the shabka and mahr?"
+        },
+        {
+          "id": "marriage-planning-027",
+          "text": "Would you prefer printed wedding invitations or digital ones?"
+        },
+        {
+          "id": "marriage-planning-028",
+          "text": "How should we split the wedding tasks between us?"
+        },
+        {
+          "id": "marriage-planning-029",
+          "text": "Which part of the wedding are you most looking forward to?"
+        },
+        {
+          "id": "marriage-planning-030",
+          "text": "Would you like a zaffa at our wedding?"
+        },
+        {
+          "id": "marriage-planning-031",
+          "text": "How do you feel about having a henna night?"
+        },
+        {
+          "id": "marriage-planning-032",
+          "text": "When would you like to start visiting venues?"
+        },
+        {
+          "id": "marriage-planning-033",
+          "text": "How should we handle wedding gifts: a gift list, money, or leave it to the guests?"
+        },
+        {
+          "id": "marriage-planning-034",
+          "text": "How do you feel about spending more on the wedding versus putting that money into the home?"
+        },
+        {
+          "id": "marriage-planning-035",
+          "text": "How should we divide our time between the two homes in the first year?"
+        }
+      ],
+      "sort_order": 70
+    },
+    {
+      "slug": "future-goals",
+      "kind": "discussion",
+      "name": "Future & Goals",
+      "description": "Careers, children, health and where life is heading.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "future-goals-001",
+          "text": "Where do you picture us living in five years?"
+        },
+        {
+          "id": "future-goals-002",
+          "text": "What's a skill you'd like to learn in the next two years?"
+        },
+        {
+          "id": "future-goals-003",
+          "text": "What would you love to be doing for work in ten years?"
+        },
+        {
+          "id": "future-goals-004",
+          "text": "How many children would you like, in sha Allah?"
+        },
+        {
+          "id": "future-goals-005",
+          "text": "When would you like to start a family?"
+        },
+        {
+          "id": "future-goals-006",
+          "text": "Would you consider going back to study at some point?"
+        },
+        {
+          "id": "future-goals-007",
+          "text": "Which place do you want us to travel to together in the next few years?"
+        },
+        {
+          "id": "future-goals-008",
+          "text": "How would we decide if one of us gets a great job offer in another country?"
+        },
+        {
+          "id": "future-goals-009",
+          "text": "Where would you like to spend your retirement?"
+        },
+        {
+          "id": "future-goals-010",
+          "text": "Do you see yourself running your own business one day?"
+        },
+        {
+          "id": "future-goals-011",
+          "text": "Which goal of yours would you most like my support with right now?"
+        },
+        {
+          "id": "future-goals-012",
+          "text": "How important is owning our home, compared with renting long-term?"
+        },
+        {
+          "id": "future-goals-013",
+          "text": "What's something you want to have done before you turn forty?"
+        },
+        {
+          "id": "future-goals-014",
+          "text": "If we could take a year off work, what would you want to do with it?"
+        },
+        {
+          "id": "future-goals-015",
+          "text": "What's the next big step you'd like us to take after the wedding?"
+        },
+        {
+          "id": "future-goals-016",
+          "text": "How should we handle it if one of us wants to change career?"
+        },
+        {
+          "id": "future-goals-017",
+          "text": "What's one thing your parents did that you'd want to do the same with our children?"
+        },
+        {
+          "id": "future-goals-018",
+          "text": "Would you want to raise children close to family, or wherever work takes us?"
+        },
+        {
+          "id": "future-goals-019",
+          "text": "How do you feel about one of us staying home with young children for a while?"
+        },
+        {
+          "id": "future-goals-020",
+          "text": "Which habit would you like us to build together?"
+        },
+        {
+          "id": "future-goals-021",
+          "text": "Which languages would you want our children to speak?"
+        },
+        {
+          "id": "future-goals-022",
+          "text": "What would make you feel our first year of marriage went well?"
+        },
+        {
+          "id": "future-goals-023",
+          "text": "How would you like us to celebrate our anniversaries?"
+        },
+        {
+          "id": "future-goals-024",
+          "text": "How many hours a week would you ideally work?"
+        },
+        {
+          "id": "future-goals-025",
+          "text": "Which hobby would you like to pick up again?"
+        },
+        {
+          "id": "future-goals-026",
+          "text": "What would you like us to do together to stay healthy?"
+        },
+        {
+          "id": "future-goals-027",
+          "text": "Would you enjoy setting goals together at the start of each year?"
+        },
+        {
+          "id": "future-goals-028",
+          "text": "Which family member's story or skill do you want to learn before it's too late?"
+        },
+        {
+          "id": "future-goals-029",
+          "text": "How many evenings a week would you want completely free from work?"
+        },
+        {
+          "id": "future-goals-030",
+          "text": "Should we write wills early in our marriage?"
+        },
+        {
+          "id": "future-goals-031",
+          "text": "What's a goal we could achieve together in the next six months?"
+        }
+      ],
+      "sort_order": 80
+    },
+    {
+      "slug": "calls-visits",
+      "kind": "discussion",
+      "name": "Calls & Visits",
+      "description": "Calls, messages and visits until we're in the same place.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "calls-visits-001",
+          "text": "What's one small thing that makes a video call feel like a proper date?"
+        },
+        {
+          "id": "calls-visits-002",
+          "text": "What should we do if a planned call is missed and the other person feels ignored?"
+        },
+        {
+          "id": "calls-visits-003",
+          "text": "How many long calls a week feel right to you?"
+        },
+        {
+          "id": "calls-visits-004",
+          "text": "What do you enjoy doing on a call when neither of us has much to say?"
+        },
+        {
+          "id": "calls-visits-005",
+          "text": "Once the next visit is booked, what's the first thing you want us to do together?"
+        },
+        {
+          "id": "calls-visits-006",
+          "text": "How should we handle it when one of us is too tired for a planned call?"
+        },
+        {
+          "id": "calls-visits-007",
+          "text": "What makes saying goodbye at the airport easier for you?"
+        },
+        {
+          "id": "calls-visits-008",
+          "text": "Would you like a regular call time each day, or should we keep it flexible?"
+        },
+        {
+          "id": "calls-visits-009",
+          "text": "What could we do at the same time while apart, like watching the same film?"
+        },
+        {
+          "id": "calls-visits-010",
+          "text": "For good morning and good night, do you prefer a text, a voice note, or a short call?"
+        },
+        {
+          "id": "calls-visits-011",
+          "text": "On a busy day, do you prefer lots of short messages or one long call later?"
+        },
+        {
+          "id": "calls-visits-012",
+          "text": "What's a gift that would make you smile if it arrived by post?"
+        },
+        {
+          "id": "calls-visits-013",
+          "text": "When I'm busy and reply slowly, how do you usually read it?"
+        },
+        {
+          "id": "calls-visits-014",
+          "text": "Which of our calls do you still think about?"
+        },
+        {
+          "id": "calls-visits-015",
+          "text": "How should we count down to the next visit?"
+        },
+        {
+          "id": "calls-visits-016",
+          "text": "When one of us visits, how much should be planned and how much left free?"
+        },
+        {
+          "id": "calls-visits-017",
+          "text": "How do you like to spend the last evening before one of us flies back?"
+        },
+        {
+          "id": "calls-visits-018",
+          "text": "What helps you most on days when the distance feels hard?"
+        },
+        {
+          "id": "calls-visits-019",
+          "text": "How many visits a year feel realistic before the wedding?"
+        },
+        {
+          "id": "calls-visits-020",
+          "text": "Would you rather visit more often for short stays, or less often for longer ones?"
+        },
+        {
+          "id": "calls-visits-021",
+          "text": "Which online game or activity would you like to try on our calls?"
+        },
+        {
+          "id": "calls-visits-022",
+          "text": "If one of us is travelling and can't call, how should we stay in touch?"
+        }
+      ],
+      "sort_order": 90
+    },
+    {
+      "slug": "getting-to-know-you",
+      "kind": "discussion",
+      "name": "Getting to Know You",
+      "description": "Stories, firsts and the things that made you who you are.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "getting-to-know-you-001",
+          "text": "What was your favourite subject at school, and what did you like about it?"
+        },
+        {
+          "id": "getting-to-know-you-002",
+          "text": "What's a smell that takes you straight back to childhood?"
+        },
+        {
+          "id": "getting-to-know-you-003",
+          "text": "What did you want to be when you were ten?"
+        },
+        {
+          "id": "getting-to-know-you-004",
+          "text": "Who was your best friend growing up?"
+        },
+        {
+          "id": "getting-to-know-you-005",
+          "text": "What's the best piece of advice you've ever been given?"
+        },
+        {
+          "id": "getting-to-know-you-006",
+          "text": "What's something you're proud of that most people don't know about?"
+        },
+        {
+          "id": "getting-to-know-you-007",
+          "text": "Which film could you watch again and again?"
+        },
+        {
+          "id": "getting-to-know-you-008",
+          "text": "Which book has stayed with you the longest?"
+        },
+        {
+          "id": "getting-to-know-you-009",
+          "text": "What were you like as a teenager?"
+        },
+        {
+          "id": "getting-to-know-you-010",
+          "text": "What's a childhood fear that seems funny now?"
+        },
+        {
+          "id": "getting-to-know-you-011",
+          "text": "What's the bravest thing you've ever done?"
+        },
+        {
+          "id": "getting-to-know-you-012",
+          "text": "Which teacher made the biggest difference to you?"
+        },
+        {
+          "id": "getting-to-know-you-013",
+          "text": "What's your earliest memory?"
+        },
+        {
+          "id": "getting-to-know-you-014",
+          "text": "What's a compliment you've never forgotten?"
+        },
+        {
+          "id": "getting-to-know-you-015",
+          "text": "Which talent do you wish you had?"
+        },
+        {
+          "id": "getting-to-know-you-016",
+          "text": "Which song lifts your mood straight away?"
+        },
+        {
+          "id": "getting-to-know-you-017",
+          "text": "What's the most beautiful place you've ever been?"
+        },
+        {
+          "id": "getting-to-know-you-018",
+          "text": "What did family holidays look like when you were young?"
+        },
+        {
+          "id": "getting-to-know-you-019",
+          "text": "What were you really into for a while before you dropped it?"
+        },
+        {
+          "id": "getting-to-know-you-020",
+          "text": "Who's the first person you tell when you have good news?"
+        },
+        {
+          "id": "getting-to-know-you-021",
+          "text": "What's a mistake that taught you a lot?"
+        },
+        {
+          "id": "getting-to-know-you-022",
+          "text": "What do you do when you need to think something through?"
+        },
+        {
+          "id": "getting-to-know-you-023",
+          "text": "Which food did you hate as a child but love now?"
+        },
+        {
+          "id": "getting-to-know-you-024",
+          "text": "Which family member are you most like?"
+        },
+        {
+          "id": "getting-to-know-you-025",
+          "text": "What's your favourite memory of Ramadan as a child?"
+        },
+        {
+          "id": "getting-to-know-you-026",
+          "text": "What was the hardest year of your life so far, and what got you through it?"
+        },
+        {
+          "id": "getting-to-know-you-027",
+          "text": "Which friend knows you best?"
+        },
+        {
+          "id": "getting-to-know-you-028",
+          "text": "What always makes you laugh, no matter what?"
+        },
+        {
+          "id": "getting-to-know-you-029",
+          "text": "What's your favourite way to spend your birthday?"
+        },
+        {
+          "id": "getting-to-know-you-030",
+          "text": "What's a nickname you've had, and where did it come from?"
+        },
+        {
+          "id": "getting-to-know-you-031",
+          "text": "What small thing makes you feel loved?"
+        },
+        {
+          "id": "getting-to-know-you-032",
+          "text": "Which habit did you pick up from one of your parents?"
+        },
+        {
+          "id": "getting-to-know-you-033",
+          "text": "What do people often get wrong about you when they first meet you?"
+        },
+        {
+          "id": "getting-to-know-you-034",
+          "text": "What's a goal you reached that once felt impossible?"
+        },
+        {
+          "id": "getting-to-know-you-035",
+          "text": "What's a dream you've never said out loud?"
+        },
+        {
+          "id": "getting-to-know-you-036",
+          "text": "What was the first thing you bought with your own money?"
+        },
+        {
+          "id": "getting-to-know-you-037",
+          "text": "Which season do you love most, and why?"
+        },
+        {
+          "id": "getting-to-know-you-038",
+          "text": "What's something you learned from a grandparent?"
+        },
+        {
+          "id": "getting-to-know-you-039",
+          "text": "What was your first phone?"
+        },
+        {
+          "id": "getting-to-know-you-040",
+          "text": "What's the hardest goodbye you've had to say?"
+        },
+        {
+          "id": "getting-to-know-you-041",
+          "text": "Which part of your personality has changed most in the last five years?"
+        },
+        {
+          "id": "getting-to-know-you-042",
+          "text": "If you could relive one day of your life, which would it be?"
+        },
+        {
+          "id": "getting-to-know-you-043",
+          "text": "Which sport did you play or follow growing up?"
+        },
+        {
+          "id": "getting-to-know-you-044",
+          "text": "Which home-cooked dish reminds you most of home?"
+        },
+        {
+          "id": "getting-to-know-you-045",
+          "text": "When did you feel really understood by someone?"
+        },
+        {
+          "id": "getting-to-know-you-046",
+          "text": "As a teenager, what did you think marriage would be like?"
+        },
+        {
+          "id": "getting-to-know-you-047",
+          "text": "What are you quietly competitive about?"
+        },
+        {
+          "id": "getting-to-know-you-048",
+          "text": "What do you love most about the city you grew up in?"
+        },
+        {
+          "id": "getting-to-know-you-049",
+          "text": "Who's someone you lost touch with but still think about?"
+        }
+      ],
+      "sort_order": 100
+    },
+    {
+      "slug": "just-for-fun",
+      "kind": "discussion",
+      "name": "Just for Fun",
+      "description": "Light questions and harmless hypotheticals.",
+      "rules": {
+        "mechanic": "talk",
+        "summary": "Read it out, talk it through, and mark it when you're done."
+      },
+      "cards": [
+        {
+          "id": "just-for-fun-001",
+          "text": "If we opened a small café together, what would be on the menu?"
+        },
+        {
+          "id": "just-for-fun-002",
+          "text": "What would your walk-on song be if music played every time you entered a room?"
+        },
+        {
+          "id": "just-for-fun-003",
+          "text": "Which fictional character would you most like to have dinner with?"
+        },
+        {
+          "id": "just-for-fun-004",
+          "text": "What's your most useless talent?"
+        },
+        {
+          "id": "just-for-fun-005",
+          "text": "If our life were a TV series, what would this season be called?"
+        },
+        {
+          "id": "just-for-fun-006",
+          "text": "What would you name a cat?"
+        },
+        {
+          "id": "just-for-fun-007",
+          "text": "If you could only eat one cuisine for a year, which would it be?"
+        },
+        {
+          "id": "just-for-fun-008",
+          "text": "What's an unpopular food opinion you hold?"
+        },
+        {
+          "id": "just-for-fun-009",
+          "text": "If you had a free plane ticket for tomorrow, where would you go?"
+        },
+        {
+          "id": "just-for-fun-010",
+          "text": "What's the funniest thing you've seen happen at a wedding?"
+        },
+        {
+          "id": "just-for-fun-011",
+          "text": "Which decade would you visit for a week if you could time travel?"
+        },
+        {
+          "id": "just-for-fun-012",
+          "text": "What would you do with a completely unplanned day in a new city?"
+        },
+        {
+          "id": "just-for-fun-013",
+          "text": "Which word or phrase do you say far too often?"
+        },
+        {
+          "id": "just-for-fun-014",
+          "text": "If you could add one rule everyone had to follow, what would it be?"
+        },
+        {
+          "id": "just-for-fun-015",
+          "text": "What's the strangest dream you can remember?"
+        },
+        {
+          "id": "just-for-fun-016",
+          "text": "Which trend have you never understood?"
+        },
+        {
+          "id": "just-for-fun-017",
+          "text": "If you became famous, what would it be for?"
+        },
+        {
+          "id": "just-for-fun-018",
+          "text": "What would go in your perfect sandwich?"
+        },
+        {
+          "id": "just-for-fun-019",
+          "text": "Which game show would you be best at?"
+        },
+        {
+          "id": "just-for-fun-020",
+          "text": "If you had to teach a class on anything, what would it be?"
+        },
+        {
+          "id": "just-for-fun-021",
+          "text": "What's the most spontaneous thing you've ever done?"
+        },
+        {
+          "id": "just-for-fun-022",
+          "text": "If we had a family motto, what should it be?"
+        },
+        {
+          "id": "just-for-fun-023",
+          "text": "Which superpower would be most useful on an ordinary Tuesday?"
+        },
+        {
+          "id": "just-for-fun-024",
+          "text": "What's the best thing you've ever eaten while travelling?"
+        },
+        {
+          "id": "just-for-fun-025",
+          "text": "If you could swap lives with anyone for a day, who would it be?"
+        },
+        {
+          "id": "just-for-fun-026",
+          "text": "Which animal would make the worst flatmate?"
+        },
+        {
+          "id": "just-for-fun-027",
+          "text": "What would you put in a time capsule to open in twenty years?"
+        },
+        {
+          "id": "just-for-fun-028",
+          "text": "If you could pick a new first name, what would it be?"
+        },
+        {
+          "id": "just-for-fun-029",
+          "text": "What's the most \"you\" thing you've ever bought?"
+        },
+        {
+          "id": "just-for-fun-030",
+          "text": "What's a harmless theory about everyday life you're sure is true?"
+        },
+        {
+          "id": "just-for-fun-031",
+          "text": "If you had to wear one colour for a year, which would it be?"
+        },
+        {
+          "id": "just-for-fun-032",
+          "text": "What's the best gift you've ever received?"
+        },
+        {
+          "id": "just-for-fun-033",
+          "text": "Which popular film do you think is overrated?"
+        },
+        {
+          "id": "just-for-fun-034",
+          "text": "Which job would you be terrible at?"
+        },
+        {
+          "id": "just-for-fun-035",
+          "text": "If you could have any view from your window, what would it be?"
+        },
+        {
+          "id": "just-for-fun-036",
+          "text": "If you could live inside any film for a week, which would it be?"
+        },
+        {
+          "id": "just-for-fun-037",
+          "text": "Which hobby would you try if no one was watching?"
+        },
+        {
+          "id": "just-for-fun-038",
+          "text": "If you woke up able to speak every language, what would you do first?"
+        },
+        {
+          "id": "just-for-fun-039",
+          "text": "Which fictional family would be the most fun to spend Eid with?"
+        },
+        {
+          "id": "just-for-fun-040",
+          "text": "What's the silliest argument you've had with a sibling?"
+        }
+      ],
+      "sort_order": 110
+    },
+    {
+      "slug": "would-you-rather",
+      "kind": "game",
+      "name": "Would You Rather",
+      "description": "Two concrete options. Pick one each.",
+      "rules": {
+        "mechanic": "choice",
+        "summary": "Both pick at the same time, then explain.",
+        "purpose": "Learn how the other thinks through quick, concrete choices.",
+        "turns": "Take turns reading the card.",
+        "answer": "Spoken: say A or B.",
+        "round_end": "The round ends once you've both explained.",
+        "scoring": "No points needed.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read both options out loud.",
+          "Count to three and say A or B at the same time.",
+          "The person who read the card explains their pick first."
+        ]
+      },
+      "cards": [
+        {
+          "id": "would-you-rather-001",
+          "options": [
+            "Spend a free Friday at home with food and a film",
+            "Go out and try a new place"
+          ],
+          "text": "Would you rather spend a free Friday at home with food and a film, or go out and try a new place?"
+        },
+        {
+          "id": "would-you-rather-002",
+          "options": [
+            "Win a free holiday every year",
+            "Get free groceries for life"
+          ],
+          "text": "Would you rather win a free holiday every year, or get free groceries for life?"
+        },
+        {
+          "id": "would-you-rather-003",
+          "options": [
+            "Have a long weekend every month",
+            "Have one long holiday a year"
+          ],
+          "text": "Would you rather have a long weekend every month, or have one long holiday a year?"
+        },
+        {
+          "id": "would-you-rather-004",
+          "options": [
+            "Always arrive ten minutes early",
+            "Always arrive ten minutes late"
+          ],
+          "text": "Would you rather always arrive ten minutes early, or always arrive ten minutes late?"
+        },
+        {
+          "id": "would-you-rather-005",
+          "options": [
+            "Cook every meal at home for a month",
+            "Eat out every meal for a month"
+          ],
+          "text": "Would you rather cook every meal at home for a month, or eat out every meal for a month?"
+        },
+        {
+          "id": "would-you-rather-006",
+          "options": [
+            "Take a road trip with no plan at all",
+            "Take a trip planned down to the hour"
+          ],
+          "text": "Would you rather take a road trip with no plan at all, or take a trip planned down to the hour?"
+        },
+        {
+          "id": "would-you-rather-007",
+          "options": [
+            "Have breakfast food for dinner every night",
+            "Have dinner food for breakfast every morning"
+          ],
+          "text": "Would you rather have breakfast food for dinner every night, or have dinner food for breakfast every morning?"
+        },
+        {
+          "id": "would-you-rather-008",
+          "options": [
+            "Give up tea and coffee for a year",
+            "Give up sweets for a year"
+          ],
+          "text": "Would you rather give up tea and coffee for a year, or give up sweets for a year?"
+        },
+        {
+          "id": "would-you-rather-009",
+          "options": [
+            "Only be able to whisper",
+            "Only be able to shout"
+          ],
+          "text": "Would you rather only be able to whisper, or only be able to shout?"
+        },
+        {
+          "id": "would-you-rather-010",
+          "options": [
+            "Have a house by the sea",
+            "Have a cabin in the mountains"
+          ],
+          "text": "Would you rather have a house by the sea, or have a cabin in the mountains?"
+        },
+        {
+          "id": "would-you-rather-011",
+          "options": [
+            "Read the book",
+            "Watch the film adaptation"
+          ],
+          "text": "Would you rather read the book, or watch the film adaptation?"
+        },
+        {
+          "id": "would-you-rather-012",
+          "options": [
+            "Spend a day without your phone",
+            "Spend a day without music"
+          ],
+          "text": "Would you rather spend a day without your phone, or spend a day without music?"
+        },
+        {
+          "id": "would-you-rather-013",
+          "options": [
+            "Be the best cook in the family",
+            "Be the best storyteller in the family"
+          ],
+          "text": "Would you rather be the best cook in the family, or be the best storyteller in the family?"
+        },
+        {
+          "id": "would-you-rather-014",
+          "options": [
+            "Always have perfect weather",
+            "Always have perfect Wi-Fi"
+          ],
+          "text": "Would you rather always have perfect weather, or always have perfect Wi-Fi?"
+        },
+        {
+          "id": "would-you-rather-015",
+          "options": [
+            "Wake up at 5am feeling fresh",
+            "Sleep until 11am and feel groggy"
+          ],
+          "text": "Would you rather wake up at 5am feeling fresh, or sleep until 11am and feel groggy?"
+        },
+        {
+          "id": "would-you-rather-016",
+          "options": [
+            "Have a personal chef",
+            "Have a personal cleaner"
+          ],
+          "text": "Would you rather have a personal chef, or have a personal cleaner?"
+        },
+        {
+          "id": "would-you-rather-017",
+          "options": [
+            "Visit every country in the world once",
+            "Live in three different countries"
+          ],
+          "text": "Would you rather visit every country in the world once, or live in three different countries?"
+        },
+        {
+          "id": "would-you-rather-018",
+          "options": [
+            "Sit in traffic for an hour with great music",
+            "Arrive on time in complete silence"
+          ],
+          "text": "Would you rather sit in traffic for an hour with great music, or arrive on time in complete silence?"
+        },
+        {
+          "id": "would-you-rather-019",
+          "options": [
+            "Get a handwritten letter",
+            "Get a surprise video message"
+          ],
+          "text": "Would you rather get a handwritten letter, or get a surprise video message?"
+        },
+        {
+          "id": "would-you-rather-020",
+          "options": [
+            "Have to sing instead of speaking for a day",
+            "Have to dance whenever you hear music"
+          ],
+          "text": "Would you rather have to sing instead of speaking for a day, or have to dance whenever you hear music?"
+        },
+        {
+          "id": "would-you-rather-021",
+          "options": [
+            "Win a cooking competition",
+            "Win a general knowledge quiz"
+          ],
+          "text": "Would you rather win a cooking competition, or win a general knowledge quiz?"
+        },
+        {
+          "id": "would-you-rather-022",
+          "options": [
+            "Plan every detail of a holiday yourself",
+            "Leave every detail to the other person"
+          ],
+          "text": "Would you rather plan every detail of a holiday yourself, or leave every detail to the other person?"
+        },
+        {
+          "id": "would-you-rather-023",
+          "options": [
+            "Live without air conditioning in summer",
+            "Live without hot water in winter"
+          ],
+          "text": "Would you rather live without air conditioning in summer, or live without hot water in winter?"
+        },
+        {
+          "id": "would-you-rather-024",
+          "options": [
+            "Be able to pause time",
+            "Be able to rewind ten seconds"
+          ],
+          "text": "Would you rather be able to pause time, or be able to rewind ten seconds?"
+        },
+        {
+          "id": "would-you-rather-025",
+          "options": [
+            "Spend a day at a theme park",
+            "Spend a day at a museum"
+          ],
+          "text": "Would you rather spend a day at a theme park, or spend a day at a museum?"
+        },
+        {
+          "id": "would-you-rather-026",
+          "options": [
+            "Go camping in the desert",
+            "Stay in a five-star hotel in the city"
+          ],
+          "text": "Would you rather go camping in the desert, or stay in a five-star hotel in the city?"
+        },
+        {
+          "id": "would-you-rather-027",
+          "options": [
+            "Have a four-day working week",
+            "Work from home every day"
+          ],
+          "text": "Would you rather have a four-day working week, or work from home every day?"
+        },
+        {
+          "id": "would-you-rather-028",
+          "options": [
+            "Never do laundry again",
+            "Never wash dishes again"
+          ],
+          "text": "Would you rather never do laundry again, or never wash dishes again?"
+        },
+        {
+          "id": "would-you-rather-029",
+          "options": [
+            "Have an extra free hour every day",
+            "Have an extra free day every month"
+          ],
+          "text": "Would you rather have an extra free hour every day, or have an extra free day every month?"
+        },
+        {
+          "id": "would-you-rather-030",
+          "options": [
+            "Take a pottery class together",
+            "Take a cooking class together"
+          ],
+          "text": "Would you rather take a pottery class together, or take a cooking class together?"
+        },
+        {
+          "id": "would-you-rather-031",
+          "options": [
+            "Watch the sunrise together",
+            "Watch the sunset together"
+          ],
+          "text": "Would you rather watch the sunrise together, or watch the sunset together?"
+        },
+        {
+          "id": "would-you-rather-032",
+          "options": [
+            "Have a huge wardrobe",
+            "Have a huge pantry"
+          ],
+          "text": "Would you rather have a huge wardrobe, or have a huge pantry?"
+        },
+        {
+          "id": "would-you-rather-033",
+          "options": [
+            "Spend Ramadan in a quiet village",
+            "Spend Ramadan in a busy city"
+          ],
+          "text": "Would you rather spend Ramadan in a quiet village, or spend Ramadan in a busy city?"
+        },
+        {
+          "id": "would-you-rather-034",
+          "options": [
+            "Receive flowers every week",
+            "Receive one big surprise a year"
+          ],
+          "text": "Would you rather receive flowers every week, or receive one big surprise a year?"
+        },
+        {
+          "id": "would-you-rather-035",
+          "options": [
+            "Drive everywhere yourself",
+            "Be driven everywhere"
+          ],
+          "text": "Would you rather drive everywhere yourself, or be driven everywhere?"
+        },
+        {
+          "id": "would-you-rather-036",
+          "options": [
+            "Live without social media",
+            "Live without streaming services"
+          ],
+          "text": "Would you rather live without social media, or live without streaming services?"
+        },
+        {
+          "id": "would-you-rather-037",
+          "options": [
+            "Take a holiday with no internet",
+            "Have a staycation with every comfort"
+          ],
+          "text": "Would you rather take a holiday with no internet, or have a staycation with every comfort?"
+        },
+        {
+          "id": "would-you-rather-038",
+          "options": [
+            "Eat the same breakfast forever",
+            "Never eat the same breakfast twice"
+          ],
+          "text": "Would you rather eat the same breakfast forever, or never eat the same breakfast twice?"
+        },
+        {
+          "id": "would-you-rather-039",
+          "options": [
+            "Have a photographic memory",
+            "Be able to fall asleep anywhere instantly"
+          ],
+          "text": "Would you rather have a photographic memory, or be able to fall asleep anywhere instantly?"
+        },
+        {
+          "id": "would-you-rather-040",
+          "options": [
+            "Spend a rainy day indoors with board games",
+            "Spend it outside walking in the rain"
+          ],
+          "text": "Would you rather spend a rainy day indoors with board games, or spend it outside walking in the rain?"
+        },
+        {
+          "id": "would-you-rather-041",
+          "options": [
+            "Fly first class somewhere nearby",
+            "Fly economy somewhere far away"
+          ],
+          "text": "Would you rather fly first class somewhere nearby, or fly economy somewhere far away?"
+        },
+        {
+          "id": "would-you-rather-042",
+          "options": [
+            "Know every word of every song",
+            "Be able to play any instrument by ear"
+          ],
+          "text": "Would you rather know every word of every song, or be able to play any instrument by ear?"
+        },
+        {
+          "id": "would-you-rather-043",
+          "options": [
+            "Be able to read any book in an hour",
+            "Remember everything you've ever read"
+          ],
+          "text": "Would you rather be able to read any book in an hour, or remember everything you've ever read?"
+        },
+        {
+          "id": "would-you-rather-044",
+          "options": [
+            "Always know the right thing to say",
+            "Always know the right time to stay quiet"
+          ],
+          "text": "Would you rather always know the right thing to say, or always know the right time to stay quiet?"
+        }
+      ],
+      "sort_order": 10
+    },
+    {
+      "slug": "this-or-that",
+      "kind": "game",
+      "name": "This or That: Quick Fire",
+      "description": "Five fast pairs per card. No time to think.",
+      "rules": {
+        "mechanic": "quickfire",
+        "summary": "Five quick pairs. Answer together, as fast as you can.",
+        "purpose": "A fast warm-up that shows how often your instincts match.",
+        "turns": "Swap readers each card.",
+        "answer": "Spoken: one word each.",
+        "round_end": "After all five pairs.",
+        "scoring": "Count your matches out of five and try to beat your best.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "One person reads each pair out loud.",
+          "You both answer at the same time without thinking it over.",
+          "Count how many of the five you matched."
+        ]
+      },
+      "cards": [
+        {
+          "id": "this-or-that-001",
+          "pairs": [
+            [
+              "Tea",
+              "Coffee"
+            ],
+            [
+              "Sweet",
+              "Salty"
+            ],
+            [
+              "Pizza",
+              "Burger"
+            ],
+            [
+              "Stairs",
+              "Lift"
+            ],
+            [
+              "Window seat",
+              "Aisle seat"
+            ]
+          ],
+          "text": "Quick fire: Tea or Coffee · Sweet or Salty · Pizza or Burger · Stairs or Lift · Window seat or Aisle seat"
+        },
+        {
+          "id": "this-or-that-002",
+          "pairs": [
+            [
+              "Rice",
+              "Pasta"
+            ],
+            [
+              "Books",
+              "Podcasts"
+            ],
+            [
+              "Rain",
+              "Sunshine"
+            ],
+            [
+              "Shower",
+              "Bath"
+            ],
+            [
+              "Chocolate",
+              "Vanilla"
+            ]
+          ],
+          "text": "Quick fire: Rice or Pasta · Books or Podcasts · Rain or Sunshine · Shower or Bath · Chocolate or Vanilla"
+        },
+        {
+          "id": "this-or-that-003",
+          "pairs": [
+            [
+              "Cooking",
+              "Baking"
+            ],
+            [
+              "Breakfast",
+              "Dinner"
+            ],
+            [
+              "Sea",
+              "Pool"
+            ],
+            [
+              "Car",
+              "Train"
+            ],
+            [
+              "Mango",
+              "Strawberry"
+            ]
+          ],
+          "text": "Quick fire: Cooking or Baking · Breakfast or Dinner · Sea or Pool · Car or Train · Mango or Strawberry"
+        },
+        {
+          "id": "this-or-that-004",
+          "pairs": [
+            [
+              "Photos",
+              "Videos"
+            ],
+            [
+              "Gold",
+              "Silver"
+            ],
+            [
+              "Board games",
+              "Video games"
+            ],
+            [
+              "Koshary",
+              "Shawarma"
+            ],
+            [
+              "Trainers",
+              "Sandals"
+            ]
+          ],
+          "text": "Quick fire: Photos or Videos · Gold or Silver · Board games or Video games · Koshary or Shawarma · Trainers or Sandals"
+        },
+        {
+          "id": "this-or-that-005",
+          "pairs": [
+            [
+              "Comedy",
+              "Drama"
+            ],
+            [
+              "Ice cream",
+              "Cake"
+            ],
+            [
+              "Lemonade",
+              "Orange juice"
+            ],
+            [
+              "Fiction",
+              "Non-fiction"
+            ],
+            [
+              "Football",
+              "Tennis"
+            ]
+          ],
+          "text": "Quick fire: Comedy or Drama · Ice cream or Cake · Lemonade or Orange juice · Fiction or Non-fiction · Football or Tennis"
+        },
+        {
+          "id": "this-or-that-006",
+          "pairs": [
+            [
+              "Ring",
+              "Necklace"
+            ],
+            [
+              "Museum",
+              "Shopping centre"
+            ],
+            [
+              "Pancakes",
+              "Waffles"
+            ],
+            [
+              "Spicy",
+              "Mild"
+            ],
+            [
+              "Popcorn",
+              "Crisps"
+            ]
+          ],
+          "text": "Quick fire: Ring or Necklace · Museum or Shopping centre · Pancakes or Waffles · Spicy or Mild · Popcorn or Crisps"
+        },
+        {
+          "id": "this-or-that-007",
+          "pairs": [
+            [
+              "Old house",
+              "New build"
+            ],
+            [
+              "Paper map",
+              "Phone map"
+            ],
+            [
+              "Hug",
+              "High five"
+            ],
+            [
+              "Chips",
+              "Mashed potato"
+            ],
+            [
+              "Road trip",
+              "Flight"
+            ]
+          ],
+          "text": "Quick fire: Old house or New build · Paper map or Phone map · Hug or High five · Chips or Mashed potato · Road trip or Flight"
+        },
+        {
+          "id": "this-or-that-008",
+          "pairs": [
+            [
+              "Hotel",
+              "Apartment"
+            ],
+            [
+              "In-store shopping",
+              "Online shopping"
+            ],
+            [
+              "Classic",
+              "Modern"
+            ],
+            [
+              "Soup",
+              "Salad"
+            ],
+            [
+              "Fish",
+              "Chicken"
+            ]
+          ],
+          "text": "Quick fire: Hotel or Apartment · In-store shopping or Online shopping · Classic or Modern · Soup or Salad · Fish or Chicken"
+        },
+        {
+          "id": "this-or-that-009",
+          "pairs": [
+            [
+              "Writing",
+              "Drawing"
+            ],
+            [
+              "Picnic",
+              "Restaurant"
+            ],
+            [
+              "Snow",
+              "Sand"
+            ],
+            [
+              "Theme park",
+              "Water park"
+            ],
+            [
+              "Dates",
+              "Figs"
+            ]
+          ],
+          "text": "Quick fire: Writing or Drawing · Picnic or Restaurant · Snow or Sand · Theme park or Water park · Dates or Figs"
+        },
+        {
+          "id": "this-or-that-010",
+          "pairs": [
+            [
+              "Bright colours",
+              "Neutral colours"
+            ],
+            [
+              "Thunderstorm",
+              "Starry sky"
+            ],
+            [
+              "Puzzle",
+              "Quiz"
+            ],
+            [
+              "Falafel",
+              "Foul"
+            ],
+            [
+              "Bike",
+              "Scooter"
+            ]
+          ],
+          "text": "Quick fire: Bright colours or Neutral colours · Thunderstorm or Starry sky · Puzzle or Quiz · Falafel or Foul · Bike or Scooter"
+        },
+        {
+          "id": "this-or-that-011",
+          "pairs": [
+            [
+              "Candles",
+              "Fairy lights"
+            ],
+            [
+              "Socks in bed",
+              "No socks"
+            ],
+            [
+              "Early dinner",
+              "Late dinner"
+            ],
+            [
+              "Alarm",
+              "Wake up naturally"
+            ],
+            [
+              "Swimming",
+              "Running"
+            ]
+          ],
+          "text": "Quick fire: Candles or Fairy lights · Socks in bed or No socks · Early dinner or Late dinner · Alarm or Wake up naturally · Swimming or Running"
+        },
+        {
+          "id": "this-or-that-012",
+          "pairs": [
+            [
+              "Red",
+              "Blue"
+            ],
+            [
+              "Ice in drinks",
+              "No ice"
+            ],
+            [
+              "Cartoons",
+              "Documentaries"
+            ],
+            [
+              "Croissant",
+              "Toast"
+            ],
+            [
+              "Rooftop",
+              "Garden"
+            ]
+          ],
+          "text": "Quick fire: Red or Blue · Ice in drinks or No ice · Cartoons or Documentaries · Croissant or Toast · Rooftop or Garden"
+        },
+        {
+          "id": "this-or-that-013",
+          "pairs": [
+            [
+              "Watch",
+              "No watch"
+            ],
+            [
+              "Fresh flowers",
+              "Potted plants"
+            ],
+            [
+              "Desert safari",
+              "Boat trip"
+            ],
+            [
+              "Pyjamas all day",
+              "Dressed by nine"
+            ],
+            [
+              "Lemon",
+              "Lime"
+            ]
+          ],
+          "text": "Quick fire: Watch or No watch · Fresh flowers or Potted plants · Desert safari or Boat trip · Pyjamas all day or Dressed by nine · Lemon or Lime"
+        },
+        {
+          "id": "this-or-that-014",
+          "pairs": [
+            [
+              "Ketchup",
+              "Mayonnaise"
+            ],
+            [
+              "Sudoku",
+              "Crossword"
+            ],
+            [
+              "Sea view",
+              "City view"
+            ],
+            [
+              "Ask for directions",
+              "Figure it out"
+            ],
+            [
+              "Honey",
+              "Jam"
+            ]
+          ],
+          "text": "Quick fire: Ketchup or Mayonnaise · Sudoku or Crossword · Sea view or City view · Ask for directions or Figure it out · Honey or Jam"
+        },
+        {
+          "id": "this-or-that-015",
+          "pairs": [
+            [
+              "Bus",
+              "Taxi"
+            ],
+            [
+              "Guava juice",
+              "Sugarcane juice"
+            ],
+            [
+              "Concert",
+              "Stand-up comedy"
+            ],
+            [
+              "Long sleeves",
+              "Short sleeves"
+            ],
+            [
+              "Gym",
+              "Home workout"
+            ]
+          ],
+          "text": "Quick fire: Bus or Taxi · Guava juice or Sugarcane juice · Concert or Stand-up comedy · Long sleeves or Short sleeves · Gym or Home workout"
+        },
+        {
+          "id": "this-or-that-016",
+          "pairs": [
+            [
+              "Washing up by hand",
+              "Dishwasher"
+            ],
+            [
+              "Tidy desk",
+              "Creative mess"
+            ],
+            [
+              "Grilled",
+              "Fried"
+            ],
+            [
+              "Ferris wheel",
+              "Roller coaster"
+            ],
+            [
+              "Bookshop",
+              "Library"
+            ]
+          ],
+          "text": "Quick fire: Washing up by hand or Dishwasher · Tidy desk or Creative mess · Grilled or Fried · Ferris wheel or Roller coaster · Bookshop or Library"
+        },
+        {
+          "id": "this-or-that-017",
+          "pairs": [
+            [
+              "Polaroid",
+              "Phone camera"
+            ],
+            [
+              "Wool",
+              "Cotton"
+            ],
+            [
+              "Basil",
+              "Mint"
+            ],
+            [
+              "Night drive",
+              "Morning drive"
+            ],
+            [
+              "Watermelon",
+              "Melon"
+            ]
+          ],
+          "text": "Quick fire: Polaroid or Phone camera · Wool or Cotton · Basil or Mint · Night drive or Morning drive · Watermelon or Melon"
+        },
+        {
+          "id": "this-or-that-018",
+          "pairs": [
+            [
+              "Stadium",
+              "Watching at home"
+            ],
+            [
+              "Board game night",
+              "Film night"
+            ],
+            [
+              "Thick blanket",
+              "Light sheet"
+            ],
+            [
+              "Hummus",
+              "Baba ghanoush"
+            ],
+            [
+              "Stripes",
+              "Spots"
+            ]
+          ],
+          "text": "Quick fire: Stadium or Watching at home · Board game night or Film night · Thick blanket or Light sheet · Hummus or Baba ghanoush · Stripes or Spots"
+        },
+        {
+          "id": "this-or-that-019",
+          "pairs": [
+            [
+              "Train window",
+              "Plane window"
+            ],
+            [
+              "Paper list",
+              "Notes app"
+            ],
+            [
+              "Cooking show",
+              "Travel show"
+            ],
+            [
+              "Sharing dessert",
+              "Own dessert"
+            ],
+            [
+              "Ancient history",
+              "Space"
+            ]
+          ],
+          "text": "Quick fire: Train window or Plane window · Paper list or Notes app · Cooking show or Travel show · Sharing dessert or Own dessert · Ancient history or Space"
+        },
+        {
+          "id": "this-or-that-020",
+          "pairs": [
+            [
+              "Lazy Sunday",
+              "Busy Sunday"
+            ],
+            [
+              "Birthday cake",
+              "Birthday breakfast"
+            ],
+            [
+              "Pistachio",
+              "Hazelnut"
+            ],
+            [
+              "Headphones",
+              "Speakers"
+            ],
+            [
+              "Sunglasses",
+              "Hat"
+            ]
+          ],
+          "text": "Quick fire: Lazy Sunday or Busy Sunday · Birthday cake or Birthday breakfast · Pistachio or Hazelnut · Headphones or Speakers · Sunglasses or Hat"
+        },
+        {
+          "id": "this-or-that-021",
+          "pairs": [
+            [
+              "Juice",
+              "Smoothie"
+            ],
+            [
+              "Apple",
+              "Orange"
+            ],
+            [
+              "Short film",
+              "Long film"
+            ],
+            [
+              "Morning market",
+              "Night market"
+            ],
+            [
+              "Handwriting",
+              "Typing"
+            ]
+          ],
+          "text": "Quick fire: Juice or Smoothie · Apple or Orange · Short film or Long film · Morning market or Night market · Handwriting or Typing"
+        },
+        {
+          "id": "this-or-that-022",
+          "pairs": [
+            [
+              "Zoo",
+              "Aquarium"
+            ],
+            [
+              "Window open at night",
+              "Window closed"
+            ],
+            [
+              "Crunchy",
+              "Soft"
+            ],
+            [
+              "Clay",
+              "Paint"
+            ],
+            [
+              "Front seat",
+              "Back seat"
+            ]
+          ],
+          "text": "Quick fire: Zoo or Aquarium · Window open at night or Window closed · Crunchy or Soft · Clay or Paint · Front seat or Back seat"
+        },
+        {
+          "id": "this-or-that-023",
+          "pairs": [
+            [
+              "Ice skating",
+              "Bowling"
+            ],
+            [
+              "Dark chocolate",
+              "Milk chocolate"
+            ],
+            [
+              "Old songs",
+              "New songs"
+            ],
+            [
+              "Cinnamon",
+              "Cardamom"
+            ],
+            [
+              "Slippers",
+              "Barefoot"
+            ]
+          ],
+          "text": "Quick fire: Ice skating or Bowling · Dark chocolate or Milk chocolate · Old songs or New songs · Cinnamon or Cardamom · Slippers or Barefoot"
+        },
+        {
+          "id": "this-or-that-024",
+          "pairs": [
+            [
+              "Feta",
+              "Cheddar"
+            ],
+            [
+              "Sparkling water",
+              "Still water"
+            ],
+            [
+              "Analogue clock",
+              "Digital clock"
+            ],
+            [
+              "Kites",
+              "Paper boats"
+            ],
+            [
+              "Postcard",
+              "Photo"
+            ]
+          ],
+          "text": "Quick fire: Feta or Cheddar · Sparkling water or Still water · Analogue clock or Digital clock · Kites or Paper boats · Postcard or Photo"
+        },
+        {
+          "id": "this-or-that-025",
+          "pairs": [
+            [
+              "Cookies",
+              "Brownies"
+            ],
+            [
+              "Paperback",
+              "E-reader"
+            ],
+            [
+              "Escape room",
+              "Cooking class"
+            ],
+            [
+              "Big breakfast",
+              "Quick coffee"
+            ],
+            [
+              "Fireworks",
+              "Lanterns"
+            ]
+          ],
+          "text": "Quick fire: Cookies or Brownies · Paperback or E-reader · Escape room or Cooking class · Big breakfast or Quick coffee · Fireworks or Lanterns"
+        }
+      ],
+      "sort_order": 20
+    },
+    {
+      "slug": "guess-my-answer",
+      "kind": "game",
+      "name": "Guess My Answer",
+      "description": "The reader answers in secret. The other guesses.",
+      "rules": {
+        "mechanic": "guess",
+        "summary": "The reader answers silently; the other guesses.",
+        "purpose": "Find out how well you know each other's everyday answers.",
+        "turns": "Swap who holds the card each round. \"I\" on the card means the reader.",
+        "answer": "Guessed out loud.",
+        "round_end": "After the reveal.",
+        "scoring": "1 point for a correct guess.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "The person holding the card reads it and decides their answer silently.",
+          "The other person gets one guess.",
+          "The reader reveals the real answer and the story behind it."
+        ]
+      },
+      "cards": [
+        {
+          "id": "guess-my-answer-001",
+          "text": "Guess which room I would want to furnish first in a new home."
+        },
+        {
+          "id": "guess-my-answer-002",
+          "text": "Guess my favourite dessert."
+        },
+        {
+          "id": "guess-my-answer-003",
+          "text": "Guess which country I'd move to for a year if I had to choose today."
+        },
+        {
+          "id": "guess-my-answer-004",
+          "text": "Guess what I'd order at a restaurant I've never been to."
+        },
+        {
+          "id": "guess-my-answer-005",
+          "text": "Guess the last thing that made me laugh out loud."
+        },
+        {
+          "id": "guess-my-answer-006",
+          "text": "Guess which item in my wardrobe I wear most."
+        },
+        {
+          "id": "guess-my-answer-007",
+          "text": "Guess the longest I've gone without my phone."
+        },
+        {
+          "id": "guess-my-answer-008",
+          "text": "Guess the song I've listened to most this month."
+        },
+        {
+          "id": "guess-my-answer-009",
+          "text": "Guess which childhood toy or game I loved most."
+        },
+        {
+          "id": "guess-my-answer-010",
+          "text": "Guess my dream car."
+        },
+        {
+          "id": "guess-my-answer-011",
+          "text": "Guess which of my friends I've known the longest."
+        },
+        {
+          "id": "guess-my-answer-012",
+          "text": "Guess how many hours I slept last night."
+        },
+        {
+          "id": "guess-my-answer-013",
+          "text": "Guess which dish I'd want at our first iftar together."
+        },
+        {
+          "id": "guess-my-answer-014",
+          "text": "Guess where I'd choose for a last-minute weekend away: the beach, a city, or the desert."
+        },
+        {
+          "id": "guess-my-answer-015",
+          "text": "Guess which app I'd delete last."
+        },
+        {
+          "id": "guess-my-answer-016",
+          "text": "Guess which colour I'd choose for our front door."
+        },
+        {
+          "id": "guess-my-answer-017",
+          "text": "Guess the first thing I do when I get home."
+        },
+        {
+          "id": "guess-my-answer-018",
+          "text": "Guess the last series I started watching."
+        },
+        {
+          "id": "guess-my-answer-019",
+          "text": "Guess the last thing I searched for online."
+        },
+        {
+          "id": "guess-my-answer-020",
+          "text": "Guess what I'd name a boat if I owned one."
+        },
+        {
+          "id": "guess-my-answer-021",
+          "text": "Guess what I'd want for breakfast on a lazy Friday."
+        },
+        {
+          "id": "guess-my-answer-022",
+          "text": "Guess which of my belongings has the most sentimental value."
+        },
+        {
+          "id": "guess-my-answer-023",
+          "text": "Guess how long it takes me to get ready for a wedding."
+        },
+        {
+          "id": "guess-my-answer-024",
+          "text": "Guess what annoys me most when I'm driving."
+        },
+        {
+          "id": "guess-my-answer-025",
+          "text": "Guess my favourite word in Arabic."
+        },
+        {
+          "id": "guess-my-answer-026",
+          "text": "Guess the place where I feel most relaxed."
+        },
+        {
+          "id": "guess-my-answer-027",
+          "text": "Guess which job I'd do if I couldn't do my current one."
+        },
+        {
+          "id": "guess-my-answer-028",
+          "text": "Guess which shop I could spend hours in."
+        },
+        {
+          "id": "guess-my-answer-029",
+          "text": "Guess which relative calls me most often."
+        },
+        {
+          "id": "guess-my-answer-030",
+          "text": "Guess what I'd buy with a gift card for any one shop."
+        },
+        {
+          "id": "guess-my-answer-031",
+          "text": "Guess the last photo I took on my phone."
+        },
+        {
+          "id": "guess-my-answer-032",
+          "text": "Guess which of my habits I think is my worst."
+        },
+        {
+          "id": "guess-my-answer-033",
+          "text": "Guess which month of the year I like best."
+        },
+        {
+          "id": "guess-my-answer-034",
+          "text": "Guess what I'd cook to impress guests."
+        },
+        {
+          "id": "guess-my-answer-035",
+          "text": "Guess how many unread messages I have right now."
+        },
+        {
+          "id": "guess-my-answer-036",
+          "text": "Guess the first country I visited outside home."
+        },
+        {
+          "id": "guess-my-answer-037",
+          "text": "Guess which sport I'd choose to play professionally."
+        },
+        {
+          "id": "guess-my-answer-038",
+          "text": "Guess the snack I reach for when I'm stressed."
+        },
+        {
+          "id": "guess-my-answer-039",
+          "text": "Guess what I'd wear on a perfect lazy day."
+        },
+        {
+          "id": "guess-my-answer-040",
+          "text": "Guess which wedding detail I've thought about most."
+        },
+        {
+          "id": "guess-my-answer-041",
+          "text": "Guess which emoji I've used most this week."
+        },
+        {
+          "id": "guess-my-answer-042",
+          "text": "Guess my phone's battery percentage right now."
+        },
+        {
+          "id": "guess-my-answer-043",
+          "text": "Guess a small gift I'd love that costs very little."
+        },
+        {
+          "id": "guess-my-answer-044",
+          "text": "Guess which fruit I'd pick first from a full bowl."
+        }
+      ],
+      "sort_order": 30
+    },
+    {
+      "slug": "most-likely-to",
+      "kind": "game",
+      "name": "Most Likely To",
+      "description": "Harmless situations. Name who's more likely.",
+      "rules": {
+        "mechanic": "point",
+        "summary": "On three, both name who's more likely.",
+        "purpose": "A light way to laugh at each other's habits.",
+        "turns": "Take turns reading.",
+        "answer": "Spoken: a name.",
+        "round_end": "After you've both answered.",
+        "scoring": "No points. The debate is the fun.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read the card out loud.",
+          "On three, both say a name: yours or the other's.",
+          "If you disagree, each gets one sentence to make their case."
+        ]
+      },
+      "cards": [
+        {
+          "id": "most-likely-to-001",
+          "text": "Who is more likely to start packing for a trip several days early?"
+        },
+        {
+          "id": "most-likely-to-002",
+          "text": "Who is more likely to fall asleep during a film?"
+        },
+        {
+          "id": "most-likely-to-003",
+          "text": "Who is more likely to get lost even with the map open?"
+        },
+        {
+          "id": "most-likely-to-004",
+          "text": "Who is more likely to cry at a wedding?"
+        },
+        {
+          "id": "most-likely-to-005",
+          "text": "Who is more likely to forget where they parked?"
+        },
+        {
+          "id": "most-likely-to-006",
+          "text": "Who is more likely to look at the dessert menu first?"
+        },
+        {
+          "id": "most-likely-to-007",
+          "text": "Who is more likely to chat to a stranger on a flight?"
+        },
+        {
+          "id": "most-likely-to-008",
+          "text": "Who is more likely to keep a receipt \"just in case\"?"
+        },
+        {
+          "id": "most-likely-to-009",
+          "text": "Who is more likely to burn something in the kitchen?"
+        },
+        {
+          "id": "most-likely-to-010",
+          "text": "Who is more likely to suggest a spontaneous road trip?"
+        },
+        {
+          "id": "most-likely-to-011",
+          "text": "Who is more likely to reply to a message three days late?"
+        },
+        {
+          "id": "most-likely-to-012",
+          "text": "Who is more likely to have forty browser tabs open?"
+        },
+        {
+          "id": "most-likely-to-013",
+          "text": "Who is more likely to rearrange the furniture without warning?"
+        },
+        {
+          "id": "most-likely-to-014",
+          "text": "Who is more likely to remember every family birthday?"
+        },
+        {
+          "id": "most-likely-to-015",
+          "text": "Who is more likely to take a hundred photos of the same view?"
+        },
+        {
+          "id": "most-likely-to-016",
+          "text": "Who is more likely to laugh at their own joke before finishing it?"
+        },
+        {
+          "id": "most-likely-to-017",
+          "text": "Who is more likely to eat the last piece without asking?"
+        },
+        {
+          "id": "most-likely-to-018",
+          "text": "Who is more likely to check the weather five times a day?"
+        },
+        {
+          "id": "most-likely-to-019",
+          "text": "Who is more likely to bring home a stray cat?"
+        },
+        {
+          "id": "most-likely-to-020",
+          "text": "Who is more likely to stay calm when a flight is cancelled?"
+        },
+        {
+          "id": "most-likely-to-021",
+          "text": "Who is more likely to make a spreadsheet for the wedding?"
+        },
+        {
+          "id": "most-likely-to-022",
+          "text": "Who is more likely to sing loudly in the car?"
+        },
+        {
+          "id": "most-likely-to-023",
+          "text": "Who is more likely to give in first after a small disagreement?"
+        },
+        {
+          "id": "most-likely-to-024",
+          "text": "Who is more likely to wake up for Fajr without an alarm?"
+        },
+        {
+          "id": "most-likely-to-025",
+          "text": "Who is more likely to buy something they saw in an advert?"
+        },
+        {
+          "id": "most-likely-to-026",
+          "text": "Who is more likely to keep plants alive?"
+        },
+        {
+          "id": "most-likely-to-027",
+          "text": "Who is more likely to be ready on time for Eid prayer?"
+        },
+        {
+          "id": "most-likely-to-028",
+          "text": "Who is more likely to cook for twenty people \"just in case\"?"
+        },
+        {
+          "id": "most-likely-to-029",
+          "text": "Who is more likely to know all the neighbours' names?"
+        },
+        {
+          "id": "most-likely-to-030",
+          "text": "Who is more likely to watch a whole series in one weekend?"
+        },
+        {
+          "id": "most-likely-to-031",
+          "text": "Who is more likely to start a new hobby and quit within a month?"
+        },
+        {
+          "id": "most-likely-to-032",
+          "text": "Who is more likely to bargain at a market?"
+        },
+        {
+          "id": "most-likely-to-033",
+          "text": "Who is more likely to plan a surprise party?"
+        },
+        {
+          "id": "most-likely-to-034",
+          "text": "Who is more likely to lose their phone inside the house?"
+        },
+        {
+          "id": "most-likely-to-035",
+          "text": "Who is more likely to press snooze five times?"
+        },
+        {
+          "id": "most-likely-to-036",
+          "text": "Who is more likely to become the favourite of the other's family?"
+        },
+        {
+          "id": "most-likely-to-037",
+          "text": "Who is more likely to order the spiciest thing on the menu?"
+        },
+        {
+          "id": "most-likely-to-038",
+          "text": "Who is more likely to fix something with tape instead of calling someone?"
+        },
+        {
+          "id": "most-likely-to-039",
+          "text": "Who is more likely to spend an hour choosing what to watch?"
+        },
+        {
+          "id": "most-likely-to-040",
+          "text": "Who is more likely to send a voice note longer than five minutes?"
+        },
+        {
+          "id": "most-likely-to-041",
+          "text": "Who is more likely to keep a surprise secret without dropping hints?"
+        },
+        {
+          "id": "most-likely-to-042",
+          "text": "Who is more likely to still be awake at 2am?"
+        },
+        {
+          "id": "most-likely-to-043",
+          "text": "Who is more likely to tidy up only minutes before the guests arrive?"
+        }
+      ],
+      "sort_order": 40
+    },
+    {
+      "slug": "rank-these",
+      "kind": "game",
+      "name": "Rank These",
+      "description": "Four items. Rank them, then compare.",
+      "rules": {
+        "mechanic": "rank",
+        "summary": "Rank the list privately, then compare from the top.",
+        "purpose": "See where your priorities line up, item by item.",
+        "turns": "Take turns reading.",
+        "answer": "Ranked.",
+        "round_end": "When both full rankings are out.",
+        "scoring": "1 point for every position you both ranked the same.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read the list out loud.",
+          "Each of you ranks the items from favourite to least favourite, in your head or in your notes app.",
+          "Reveal your rankings one position at a time, starting from the top."
+        ]
+      },
+      "cards": [
+        {
+          "id": "rank-these-001",
+          "text": "Rank these for a weekend together",
+          "items": [
+            "Trying a new restaurant",
+            "Staying home",
+            "Visiting family",
+            "Taking a day trip"
+          ]
+        },
+        {
+          "id": "rank-these-002",
+          "text": "Rank these night-time noises from most to least annoying",
+          "items": [
+            "A dripping tap",
+            "Snoring",
+            "A buzzing mosquito",
+            "A ticking clock"
+          ]
+        },
+        {
+          "id": "rank-these-003",
+          "text": "Rank these honeymoon priorities",
+          "items": [
+            "Beautiful views",
+            "Great food",
+            "Rest",
+            "Adventure"
+          ]
+        },
+        {
+          "id": "rank-these-004",
+          "text": "Rank these furniture purchases by priority",
+          "items": [
+            "Sofa",
+            "Bed",
+            "Dining table",
+            "Desk"
+          ]
+        },
+        {
+          "id": "rank-these-005",
+          "text": "Rank these breakfasts",
+          "items": [
+            "Foul and falafel",
+            "Eggs and toast",
+            "Pancakes",
+            "Fruit and yoghurt"
+          ]
+        },
+        {
+          "id": "rank-these-006",
+          "text": "Rank these picnic foods",
+          "items": [
+            "Sandwiches",
+            "Fruit",
+            "Pastries",
+            "Something grilled"
+          ]
+        },
+        {
+          "id": "rank-these-007",
+          "text": "Rank these gifts",
+          "items": [
+            "A book",
+            "Flowers",
+            "Perfume",
+            "A surprise trip"
+          ]
+        },
+        {
+          "id": "rank-these-008",
+          "text": "Rank these kinds of holiday",
+          "items": [
+            "Beach resort",
+            "City break",
+            "Road trip",
+            "Staying with family"
+          ]
+        },
+        {
+          "id": "rank-these-009",
+          "text": "Rank these desserts",
+          "items": [
+            "Kunafa",
+            "Basbousa",
+            "Ice cream",
+            "Chocolate cake"
+          ]
+        },
+        {
+          "id": "rank-these-010",
+          "text": "Rank these things to pack first",
+          "items": [
+            "Phone charger",
+            "Passport",
+            "Snacks",
+            "A book"
+          ]
+        },
+        {
+          "id": "rank-these-011",
+          "text": "Rank these travel annoyances",
+          "items": [
+            "Delayed flights",
+            "Lost luggage",
+            "Long queues",
+            "An uncomfortable hotel bed"
+          ]
+        },
+        {
+          "id": "rank-these-012",
+          "text": "Rank these street foods",
+          "items": [
+            "Koshary",
+            "Foul",
+            "Ta'meya",
+            "Hawawshi"
+          ]
+        },
+        {
+          "id": "rank-these-013",
+          "text": "Rank these jobs to try for a day",
+          "items": [
+            "Pilot",
+            "Chef",
+            "Teacher",
+            "Zookeeper"
+          ]
+        },
+        {
+          "id": "rank-these-014",
+          "text": "Rank these qualities in a friend",
+          "items": [
+            "Loyalty",
+            "Humour",
+            "Honesty",
+            "Generosity"
+          ]
+        },
+        {
+          "id": "rank-these-015",
+          "text": "Rank these Ramadan moments",
+          "items": [
+            "Suhoor",
+            "Iftar",
+            "Taraweeh",
+            "The last ten nights"
+          ]
+        },
+        {
+          "id": "rank-these-016",
+          "text": "Rank these ways to cool down on a hot day",
+          "items": [
+            "Ice cream",
+            "A swim",
+            "Air conditioning",
+            "A cold shower"
+          ]
+        },
+        {
+          "id": "rank-these-017",
+          "text": "Rank these rooms by how much time you'd spend in them",
+          "items": [
+            "Kitchen",
+            "Living room",
+            "Bedroom",
+            "Balcony"
+          ]
+        },
+        {
+          "id": "rank-these-018",
+          "text": "Rank these date ideas",
+          "items": [
+            "Dinner out",
+            "Cooking together",
+            "A museum",
+            "A long drive"
+          ]
+        },
+        {
+          "id": "rank-these-019",
+          "text": "Rank these from best to worst to wait for",
+          "items": [
+            "A delivery",
+            "A doctor's appointment",
+            "A reply to a message",
+            "A lift"
+          ]
+        },
+        {
+          "id": "rank-these-020",
+          "text": "Rank these film-night snacks",
+          "items": [
+            "Popcorn",
+            "Nuts",
+            "Crisps",
+            "Fruit"
+          ]
+        },
+        {
+          "id": "rank-these-021",
+          "text": "Rank these work perks",
+          "items": [
+            "Remote work",
+            "A higher salary",
+            "More holiday",
+            "Flexible hours"
+          ]
+        },
+        {
+          "id": "rank-these-022",
+          "text": "Rank these road-trip essentials",
+          "items": [
+            "Snacks",
+            "A good playlist",
+            "A full tank",
+            "A plan"
+          ]
+        },
+        {
+          "id": "rank-these-023",
+          "text": "Rank these hotel features",
+          "items": [
+            "The bed",
+            "The breakfast",
+            "The view",
+            "The pool"
+          ]
+        },
+        {
+          "id": "rank-these-024",
+          "text": "Rank these hobbies to try together",
+          "items": [
+            "A cooking class",
+            "Hiking",
+            "Learning a language",
+            "Photography"
+          ]
+        },
+        {
+          "id": "rank-these-025",
+          "text": "Rank these childhood treats",
+          "items": [
+            "Ice cream from a street cart",
+            "Sweets from the corner shop",
+            "Birthday cake",
+            "Popcorn at the cinema"
+          ]
+        },
+        {
+          "id": "rank-these-026",
+          "text": "Rank these board games",
+          "items": [
+            "Chess",
+            "Monopoly",
+            "Uno",
+            "Scrabble"
+          ]
+        },
+        {
+          "id": "rank-these-027",
+          "text": "Rank these sounds",
+          "items": [
+            "Rain",
+            "Waves",
+            "Birds in the morning",
+            "A crackling fire"
+          ]
+        },
+        {
+          "id": "rank-these-028",
+          "text": "Rank these sports to try",
+          "items": [
+            "Padel",
+            "Climbing",
+            "Horse riding",
+            "Archery"
+          ]
+        },
+        {
+          "id": "rank-these-029",
+          "text": "Rank these apps by which you'd give up first",
+          "items": [
+            "Social media",
+            "Games",
+            "Streaming",
+            "News"
+          ]
+        },
+        {
+          "id": "rank-these-030",
+          "text": "Rank these home smells",
+          "items": [
+            "Fresh coffee",
+            "Bakhoor",
+            "Clean laundry",
+            "Something baking"
+          ]
+        },
+        {
+          "id": "rank-these-031",
+          "text": "Rank these kinds of film",
+          "items": [
+            "Comedy",
+            "Action",
+            "Drama",
+            "Documentary"
+          ]
+        },
+        {
+          "id": "rank-these-032",
+          "text": "Rank these airport moments",
+          "items": [
+            "The arrivals hall",
+            "Duty free",
+            "Boarding",
+            "Landing"
+          ]
+        },
+        {
+          "id": "rank-these-033",
+          "text": "Rank these wedding-day worries",
+          "items": [
+            "The weather",
+            "Running late",
+            "The food running out",
+            "The photos"
+          ]
+        },
+        {
+          "id": "rank-these-034",
+          "text": "Rank these sports to watch",
+          "items": [
+            "Football",
+            "Tennis",
+            "Squash",
+            "Basketball"
+          ]
+        },
+        {
+          "id": "rank-these-035",
+          "text": "Rank these childhood games",
+          "items": [
+            "Hide and seek",
+            "Tag",
+            "Marbles",
+            "Hopscotch"
+          ]
+        },
+        {
+          "id": "rank-these-036",
+          "text": "Rank these ways to spend a long flight",
+          "items": [
+            "Sleeping",
+            "Watching films",
+            "Reading",
+            "Talking"
+          ]
+        }
+      ],
+      "sort_order": 50
+    },
+    {
+      "slug": "mini-challenges",
+      "kind": "game",
+      "name": "Mini Challenges",
+      "description": "Small, timed challenges you can do on a call.",
+      "rules": {
+        "mechanic": "challenge",
+        "summary": "A quick challenge with a timer.",
+        "purpose": "Get off the sofa for a minute and make each other laugh.",
+        "turns": "Do the challenge together unless the card says otherwise.",
+        "answer": "Acted or shown.",
+        "round_end": "When the timer ends.",
+        "scoring": "The card says if there's a winner. Otherwise you both win.",
+        "video_call": "Designed for video calls. Everything uses what's within reach.",
+        "steps": [
+          "Read the challenge out loud.",
+          "Tap Start timer when you're both ready.",
+          "Stop when the timer ends and compare."
+        ]
+      },
+      "cards": [
+        {
+          "id": "mini-challenges-001",
+          "seconds": 30,
+          "text": "You each have 30 seconds to find an old photo that makes you laugh. Show them at the same time."
+        },
+        {
+          "id": "mini-challenges-002",
+          "seconds": 60,
+          "text": "Draw each other's portrait without looking at the paper. Reveal them together."
+        },
+        {
+          "id": "mini-challenges-003",
+          "seconds": 45,
+          "text": "Take turns naming films with a one-word title. The first to hesitate for five seconds loses."
+        },
+        {
+          "id": "mini-challenges-004",
+          "seconds": 60,
+          "text": "Find something in your room that sums up your week. Explain it in one sentence."
+        },
+        {
+          "id": "mini-challenges-005",
+          "seconds": 30,
+          "text": "Without checking, guess the exact time to the minute. The closest guess wins."
+        },
+        {
+          "id": "mini-challenges-006",
+          "seconds": 90,
+          "text": "Write a four-line poem about today. Read them out together."
+        },
+        {
+          "id": "mini-challenges-007",
+          "seconds": 45,
+          "text": "Take turns naming foods that start with M. The first to repeat one or freeze loses."
+        },
+        {
+          "id": "mini-challenges-008",
+          "seconds": 60,
+          "text": "Do a kind, recognisable impression of someone you both know. The other guesses who."
+        },
+        {
+          "id": "mini-challenges-009",
+          "seconds": 30,
+          "text": "Show the most recent screenshot on your phone and explain why you took it."
+        },
+        {
+          "id": "mini-challenges-010",
+          "seconds": 60,
+          "text": "Invent a dish using only three ingredients from your kitchen. Pitch it like a restaurant menu."
+        },
+        {
+          "id": "mini-challenges-011",
+          "seconds": 30,
+          "text": "Balance a spoon on your nose. The longest balance wins."
+        },
+        {
+          "id": "mini-challenges-012",
+          "seconds": 60,
+          "text": "Hum a song. The other has to guess it before time runs out."
+        },
+        {
+          "id": "mini-challenges-013",
+          "seconds": 60,
+          "text": "Find the oldest thing you own within reach and tell its story."
+        },
+        {
+          "id": "mini-challenges-014",
+          "seconds": 30,
+          "text": "Take turns giving each other compliments. No repeats, no pauses longer than three seconds."
+        },
+        {
+          "id": "mini-challenges-015",
+          "seconds": 60,
+          "text": "Pick a random object nearby and sell it to the other like an advert."
+        },
+        {
+          "id": "mini-challenges-016",
+          "seconds": 45,
+          "text": "Spell both your full names backwards out loud. The fastest correct attempt wins."
+        },
+        {
+          "id": "mini-challenges-017",
+          "seconds": 60,
+          "text": "Describe tomorrow's ideal lunch in exactly ten words."
+        },
+        {
+          "id": "mini-challenges-018",
+          "seconds": 30,
+          "text": "Make the other laugh without saying a word."
+        },
+        {
+          "id": "mini-challenges-019",
+          "seconds": 90,
+          "text": "Tell a story one sentence each, starting with: \"The suitcase was much heavier than expected.\""
+        },
+        {
+          "id": "mini-challenges-020",
+          "seconds": 30,
+          "text": "Name ten animals between you, taking turns. Beat the timer together."
+        },
+        {
+          "id": "mini-challenges-021",
+          "seconds": 60,
+          "text": "Recreate a childhood photo of yourself as closely as you can with what's nearby."
+        },
+        {
+          "id": "mini-challenges-022",
+          "seconds": 60,
+          "text": "Draw your dream house in one minute. Compare whose kitchen is bigger."
+        },
+        {
+          "id": "mini-challenges-023",
+          "seconds": 45,
+          "text": "Find something blue, something soft and something older than you. The first to show all three wins."
+        },
+        {
+          "id": "mini-challenges-024",
+          "seconds": 60,
+          "text": "Describe a famous place without naming it. The other guesses."
+        },
+        {
+          "id": "mini-challenges-025",
+          "seconds": 45,
+          "text": "Talk for 45 seconds about a topic the other chooses, without saying \"um\"."
+        },
+        {
+          "id": "mini-challenges-026",
+          "seconds": 60,
+          "text": "Give a tour of the room you're in as if you were a hotel guide."
+        },
+        {
+          "id": "mini-challenges-027",
+          "seconds": 60,
+          "text": "Rename five everyday objects nearby. The other has to guess what each one is."
+        },
+        {
+          "id": "mini-challenges-028",
+          "seconds": 30,
+          "text": "Find three things within reach that start with the same letter. The fastest wins."
+        },
+        {
+          "id": "mini-challenges-029",
+          "seconds": 60,
+          "text": "Tidy the space around you as fast as you can. Show the before and after."
+        },
+        {
+          "id": "mini-challenges-030",
+          "seconds": 30,
+          "text": "Announce the biggest news of your day like a TV news presenter."
+        },
+        {
+          "id": "mini-challenges-031",
+          "seconds": 120,
+          "text": "Teach each other one word in a language the other doesn't know. Test each other at the end of the call."
+        },
+        {
+          "id": "mini-challenges-032",
+          "seconds": 60,
+          "text": "Each of you picks a secret word. Use it naturally before the call ends without the other noticing."
+        },
+        {
+          "id": "mini-challenges-033",
+          "seconds": 45,
+          "text": "List as many countries as you can that start with the letter S, taking turns."
+        }
+      ],
+      "sort_order": 60
+    },
+    {
+      "slug": "memory-match",
+      "kind": "game",
+      "name": "Memory Match",
+      "description": "Your real shared moments. Write privately, reveal together.",
+      "rules": {
+        "mechanic": "memory",
+        "summary": "Write your answer privately, then reveal together.",
+        "purpose": "Compare how you each remember the moments you actually share.",
+        "turns": "Take turns reading.",
+        "answer": "Written, then read out.",
+        "round_end": "After you've compared.",
+        "scoring": "A point together for every match. Different memories aren't wrong; talk about them.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read the card out loud.",
+          "Each of you writes your answer privately, on paper or in your notes app.",
+          "Reveal at the same time and compare the details."
+        ]
+      },
+      "cards": [
+        {
+          "id": "memory-match-001",
+          "text": "Each write down the first detail you remember from our first long conversation."
+        },
+        {
+          "id": "memory-match-002",
+          "text": "Write down the date you think we first spoke. Check who was closer."
+        },
+        {
+          "id": "memory-match-003",
+          "text": "Each write down the first thing you noticed about the other."
+        },
+        {
+          "id": "memory-match-004",
+          "text": "Write down a place we've been together that you'd go back to first."
+        },
+        {
+          "id": "memory-match-005",
+          "text": "Each write down the funniest moment between us in the last three months."
+        },
+        {
+          "id": "memory-match-006",
+          "text": "Write down what you think the other was wearing the first time we met in person."
+        },
+        {
+          "id": "memory-match-007",
+          "text": "Each write down one word for the first time our families met."
+        },
+        {
+          "id": "memory-match-008",
+          "text": "Write down the song you connect most with us. See if it's the same one."
+        },
+        {
+          "id": "memory-match-009",
+          "text": "Each write down a message from the other that you still remember. See if the sender remembers it too."
+        },
+        {
+          "id": "memory-match-010",
+          "text": "Write down how long you think our longest call lasted. Check your call history if you can."
+        },
+        {
+          "id": "memory-match-011",
+          "text": "Each write down the moment you knew this was serious."
+        },
+        {
+          "id": "memory-match-012",
+          "text": "Write down the first gift you received from the other. Check whether you both remember it the same way."
+        },
+        {
+          "id": "memory-match-013",
+          "text": "Each name the meal we've shared that you remember best."
+        },
+        {
+          "id": "memory-match-014",
+          "text": "Write down an inside joke between us and where it started. Compare the stories."
+        },
+        {
+          "id": "memory-match-015",
+          "text": "Each write down one detail from the day of our engagement."
+        },
+        {
+          "id": "memory-match-016",
+          "text": "Write down the first photo of the two of us you can remember. Find it and check."
+        },
+        {
+          "id": "memory-match-017",
+          "text": "Each write down the last time we laughed until it hurt."
+        },
+        {
+          "id": "memory-match-018",
+          "text": "Write down the first plan we ever made together for the future."
+        },
+        {
+          "id": "memory-match-019",
+          "text": "Each write down a moment the other made you proud."
+        },
+        {
+          "id": "memory-match-020",
+          "text": "Write down one thing the other said this week that stayed with you."
+        },
+        {
+          "id": "memory-match-021",
+          "text": "Each write down what we talked about on our last call before this one."
+        },
+        {
+          "id": "memory-match-022",
+          "text": "Write down the first voice note you remember receiving from the other."
+        },
+        {
+          "id": "memory-match-023",
+          "text": "Write down the most surprising thing you learned about the other in the first month."
+        },
+        {
+          "id": "memory-match-024",
+          "text": "Each write down a small thing the other did recently that you noticed but didn't mention."
+        },
+        {
+          "id": "memory-match-025",
+          "text": "Each write down a time we disagreed but ended up laughing about it."
+        },
+        {
+          "id": "memory-match-026",
+          "text": "Write down the first film or series we watched at the same time."
+        },
+        {
+          "id": "memory-match-027",
+          "text": "Each write down your favourite photo of us. Find it and show it."
+        },
+        {
+          "id": "memory-match-028",
+          "text": "Each write down a time the other helped you without being asked."
+        },
+        {
+          "id": "memory-match-029",
+          "text": "Write down something the other has taught you."
+        }
+      ],
+      "sort_order": 70
+    },
+    {
+      "slug": "plan-it-together",
+      "kind": "game",
+      "name": "Plan It Together",
+      "description": "A small brief with real limits. Agree on every point.",
+      "rules": {
+        "mechanic": "plan",
+        "summary": "Agree on a small plan before the timer runs out.",
+        "purpose": "Practise making a real plan together, quickly and fairly.",
+        "turns": "Plan together. Swap who reads each card.",
+        "answer": "Spoken and agreed together.",
+        "round_end": "When every point is agreed or the timer ends.",
+        "scoring": "No points. A plan finished in time is a keeper.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read the brief and its limits.",
+          "Start the timer.",
+          "Agree on every point in the brief before time runs out. Save it to Date Ideas if you want to do it for real."
+        ]
+      },
+      "cards": [
+        {
+          "id": "plan-it-together-001",
+          "seconds": 300,
+          "text": "Plan a low-cost evening together with a budget of AED 150. Agree on the food, the activity and the timing."
+        },
+        {
+          "id": "plan-it-together-002",
+          "seconds": 300,
+          "text": "Plan the first weekend in our new home: one task, one treat and one guest to invite."
+        },
+        {
+          "id": "plan-it-together-003",
+          "seconds": 300,
+          "text": "Plan a surprise for the next birthday that costs no more than a dinner out. Each of you pitches one idea, then pick one."
+        },
+        {
+          "id": "plan-it-together-004",
+          "seconds": 300,
+          "text": "Plan a perfect rainy day indoors: breakfast, one activity and dinner."
+        },
+        {
+          "id": "plan-it-together-005",
+          "seconds": 300,
+          "text": "Plan a three-day trip somewhere neither of us has been. Agree on the place, where to stay and one must-do."
+        },
+        {
+          "id": "plan-it-together-006",
+          "seconds": 300,
+          "text": "Plan our next video-call date: what we'll eat, what we'll wear and what we'll watch."
+        },
+        {
+          "id": "plan-it-together-007",
+          "seconds": 300,
+          "text": "Plan a dinner for both families. Agree on the menu, the seating and who cooks what."
+        },
+        {
+          "id": "plan-it-together-008",
+          "seconds": 300,
+          "text": "Plan a Saturday morning at home: wake-up time, breakfast and one thing to get done."
+        },
+        {
+          "id": "plan-it-together-009",
+          "seconds": 300,
+          "text": "Plan a day out with no spending at all. Agree on where to go, what to bring and how long to stay."
+        },
+        {
+          "id": "plan-it-together-010",
+          "seconds": 300,
+          "text": "Plan the first iftar we host. Agree on the guests, three dishes and who does what."
+        },
+        {
+          "id": "plan-it-together-011",
+          "seconds": 300,
+          "text": "Plan five dinners for a busy week. No repeats, and at least two must take under twenty minutes."
+        },
+        {
+          "id": "plan-it-together-012",
+          "seconds": 300,
+          "text": "Plan a sunrise outing: where to watch it, what to bring for breakfast and what time to leave."
+        },
+        {
+          "id": "plan-it-together-013",
+          "seconds": 300,
+          "text": "Plan a picnic for two: the place, five things for the basket and a backup plan for bad weather."
+        },
+        {
+          "id": "plan-it-together-014",
+          "seconds": 300,
+          "text": "Plan how we'd spend an unexpected free day next week: morning, afternoon and evening."
+        },
+        {
+          "id": "plan-it-together-015",
+          "seconds": 300,
+          "text": "Plan a film night at home: the film, the snacks and the seating."
+        },
+        {
+          "id": "plan-it-together-016",
+          "seconds": 300,
+          "text": "Plan the first piece of furniture we'll buy together: what it is, the budget and where to look."
+        },
+        {
+          "id": "plan-it-together-017",
+          "seconds": 300,
+          "text": "Plan a thank-you for someone who helped us recently: who it's for, what we'll do and when."
+        },
+        {
+          "id": "plan-it-together-018",
+          "seconds": 300,
+          "text": "Plan a cooking contest for the next time we're together: the dish, the rules and who judges."
+        },
+        {
+          "id": "plan-it-together-019",
+          "seconds": 300,
+          "text": "Plan a \"yes day\" for each other: three requests each, all within reason."
+        },
+        {
+          "id": "plan-it-together-020",
+          "seconds": 300,
+          "text": "Plan a charity day together: the cause, what we'd do and how much time we'd give."
+        },
+        {
+          "id": "plan-it-together-021",
+          "seconds": 300,
+          "text": "Plan an Eid morning: what we'll wear, where we'll pray and which family we'll visit first."
+        },
+        {
+          "id": "plan-it-together-022",
+          "seconds": 300,
+          "text": "Plan a tour of your hometown for the other: three stops and one food to try."
+        },
+        {
+          "id": "plan-it-together-023",
+          "seconds": 300,
+          "text": "Plan a monthly date night: which day, who chooses and a budget limit."
+        },
+        {
+          "id": "plan-it-together-024",
+          "seconds": 300,
+          "text": "Plan a gift exchange with AED 50 each. Agree on the theme and the deadline."
+        },
+        {
+          "id": "plan-it-together-025",
+          "seconds": 300,
+          "text": "Plan a calm evening in: what you need, the order of things and the music."
+        },
+        {
+          "id": "plan-it-together-026",
+          "seconds": 300,
+          "text": "Plan the playlist for a long drive: five songs each, and agree on the first one."
+        },
+        {
+          "id": "plan-it-together-027",
+          "seconds": 300,
+          "text": "Plan a month of learning something new: one skill each, how we'll practise and how we'll show progress."
+        },
+        {
+          "id": "plan-it-together-028",
+          "seconds": 300,
+          "text": "Plan a small celebration for finishing a big wedding task. Decide what counts as big and how we'll celebrate."
+        },
+        {
+          "id": "plan-it-together-029",
+          "seconds": 300,
+          "text": "Plan a weekend away within a two-hour drive: where, where to stay and one meal to look forward to."
+        },
+        {
+          "id": "plan-it-together-030",
+          "seconds": 300,
+          "text": "Plan a home \"café\" morning for when we're together: the menu, the music and who serves."
+        }
+      ],
+      "sort_order": 80
+    },
+    {
+      "slug": "what-would-you-do",
+      "kind": "game",
+      "name": "What Would You Do?",
+      "description": "A situation and three options. Pick yours and predict theirs.",
+      "rules": {
+        "mechanic": "scenario",
+        "summary": "Pick A, B or C, and predict what the other will pick.",
+        "purpose": "Test how well you can predict each other in everyday situations.",
+        "turns": "Take turns reading.",
+        "answer": "Selected: a letter.",
+        "round_end": "After the reveal and a quick reason.",
+        "scoring": "1 point for each correct prediction.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read the situation and the three options.",
+          "Each of you secretly picks your own letter and guesses the other's letter.",
+          "Reveal both at the same time, then give a quick reason."
+        ]
+      },
+      "cards": [
+        {
+          "id": "what-would-you-do-001",
+          "text": "You find a wallet with cash and an ID on the street.",
+          "choices": [
+            "Hand it in to the police",
+            "Try to contact the owner yourself",
+            "Leave it with a nearby shop"
+          ]
+        },
+        {
+          "id": "what-would-you-do-002",
+          "text": "The restaurant brings you the wrong dish, and it looks good.",
+          "choices": [
+            "Eat it",
+            "Send it back",
+            "Ask to keep it and still get yours"
+          ]
+        },
+        {
+          "id": "what-would-you-do-003",
+          "text": "Your flight is delayed by six hours.",
+          "choices": [
+            "Explore near the airport",
+            "Find a quiet corner and sleep",
+            "Rebook for tomorrow"
+          ]
+        },
+        {
+          "id": "what-would-you-do-004",
+          "text": "You're given two free tickets to an event you don't enjoy.",
+          "choices": [
+            "Go anyway",
+            "Give them to a friend",
+            "Offer them to a stranger in the queue"
+          ]
+        },
+        {
+          "id": "what-would-you-do-005",
+          "text": "A neighbour plays loud music late at night.",
+          "choices": [
+            "Knock and ask nicely",
+            "Leave a polite note",
+            "Put on headphones and wait"
+          ]
+        },
+        {
+          "id": "what-would-you-do-006",
+          "text": "You accidentally see a surprise the other is planning.",
+          "choices": [
+            "Pretend you didn't see it",
+            "Tell them",
+            "Drop hints that you know"
+          ]
+        },
+        {
+          "id": "what-would-you-do-007",
+          "text": "The bill arrives and it's much higher than you expected.",
+          "choices": [
+            "Check every item",
+            "Pay and move on",
+            "Ask to speak to the manager"
+          ]
+        },
+        {
+          "id": "what-would-you-do-008",
+          "text": "A relative criticises your cooking in front of everyone.",
+          "choices": [
+            "Laugh it off",
+            "Reply with a joke",
+            "Talk to them privately later"
+          ]
+        },
+        {
+          "id": "what-would-you-do-009",
+          "text": "It's 11pm and you've forgotten something you need for tomorrow's guests.",
+          "choices": [
+            "Go out now",
+            "Order a delivery",
+            "Improvise with what's at home"
+          ]
+        },
+        {
+          "id": "what-would-you-do-010",
+          "text": "You get a parking ticket you think is unfair.",
+          "choices": [
+            "Appeal it",
+            "Pay it",
+            "Leave it until later"
+          ]
+        },
+        {
+          "id": "what-would-you-do-011",
+          "text": "You win a holiday for two, but it's next week.",
+          "choices": [
+            "Go, whatever it takes",
+            "Ask to move the dates",
+            "Give it to family"
+          ]
+        },
+        {
+          "id": "what-would-you-do-012",
+          "text": "Someone cuts in front of you in a long queue.",
+          "choices": [
+            "Say something",
+            "Let it go",
+            "Make a joke loud enough for them to hear"
+          ]
+        },
+        {
+          "id": "what-would-you-do-013",
+          "text": "A shop assistant gives you too much change.",
+          "choices": [
+            "Return it straight away",
+            "Notice later and go back",
+            "Keep it"
+          ]
+        },
+        {
+          "id": "what-would-you-do-014",
+          "text": "Your phone dies in a city you don't know.",
+          "choices": [
+            "Ask a stranger for directions",
+            "Find a café to charge it",
+            "Walk until something looks familiar"
+          ]
+        },
+        {
+          "id": "what-would-you-do-015",
+          "text": "Guests arrive an hour early.",
+          "choices": [
+            "Welcome them and let them help",
+            "Ask them to wait a moment",
+            "Send them on a short errand"
+          ]
+        },
+        {
+          "id": "what-would-you-do-016",
+          "text": "You're stuck in a lift with a stranger for twenty minutes.",
+          "choices": [
+            "Start a conversation",
+            "Stay quiet",
+            "Keep pressing the alarm"
+          ]
+        },
+        {
+          "id": "what-would-you-do-017",
+          "text": "You break something valuable at a friend's house.",
+          "choices": [
+            "Tell them straight away",
+            "Offer to replace it first",
+            "Wait for the right moment"
+          ]
+        },
+        {
+          "id": "what-would-you-do-018",
+          "text": "A shop has a huge sale, but you don't need anything.",
+          "choices": [
+            "Go in anyway",
+            "Walk past",
+            "Buy gifts for later"
+          ]
+        },
+        {
+          "id": "what-would-you-do-019",
+          "text": "Your car breaks down on the way to an important event.",
+          "choices": [
+            "Leave it and take a taxi",
+            "Try to fix it",
+            "Call someone you trust"
+          ]
+        },
+        {
+          "id": "what-would-you-do-020",
+          "text": "A waiter is very rude to you.",
+          "choices": [
+            "Complain to the manager",
+            "Leave a smaller tip",
+            "Ignore it and enjoy the meal"
+          ]
+        },
+        {
+          "id": "what-would-you-do-021",
+          "text": "You realise you've called a new colleague by the wrong name for a month.",
+          "choices": [
+            "Admit it and laugh",
+            "Avoid using their name",
+            "Ask someone else to correct it"
+          ]
+        },
+        {
+          "id": "what-would-you-do-022",
+          "text": "You find a large spider in the bathroom.",
+          "choices": [
+            "Remove it yourself",
+            "Call for help",
+            "Avoid the bathroom for the day"
+          ]
+        },
+        {
+          "id": "what-would-you-do-023",
+          "text": "You have a free hour before a meeting in an area you don't know.",
+          "choices": [
+            "Find a café and read",
+            "Walk around and explore",
+            "Arrive early and wait"
+          ]
+        },
+        {
+          "id": "what-would-you-do-024",
+          "text": "A parcel arrives that isn't yours, with something inside you've wanted for ages.",
+          "choices": [
+            "Contact the sender",
+            "Find the right neighbour",
+            "Ask the courier to take it back"
+          ]
+        },
+        {
+          "id": "what-would-you-do-025",
+          "text": "Your favourite restaurant changes its best dish.",
+          "choices": [
+            "Complain politely",
+            "Give the new version a chance",
+            "Find a new favourite"
+          ]
+        },
+        {
+          "id": "what-would-you-do-026",
+          "text": "You're asked to give a speech at a family event with no warning.",
+          "choices": [
+            "Give it anyway",
+            "Keep it to one sentence",
+            "Pass the microphone with a smile"
+          ]
+        },
+        {
+          "id": "what-would-you-do-027",
+          "text": "Heavy rain starts in the middle of an outdoor event you planned.",
+          "choices": [
+            "Move everyone inside",
+            "Carry on under umbrellas",
+            "Postpone it"
+          ]
+        },
+        {
+          "id": "what-would-you-do-028",
+          "text": "You're handed a menu entirely in a language you can't read.",
+          "choices": [
+            "Point at something at random",
+            "Ask the waiter to choose",
+            "Translate it with your phone"
+          ]
+        },
+        {
+          "id": "what-would-you-do-029",
+          "text": "A friend spoils the ending of a series you're watching.",
+          "choices": [
+            "Laugh it off",
+            "Stop watching",
+            "Spoil something back"
+          ]
+        },
+        {
+          "id": "what-would-you-do-030",
+          "text": "A long-planned trip clashes with a close friend's wedding.",
+          "choices": [
+            "Change the trip",
+            "Miss the wedding",
+            "Try to do both"
+          ]
+        }
+      ],
+      "sort_order": 90
+    },
+    {
+      "slug": "yes-or-no",
+      "kind": "game",
+      "name": "Yes or No",
+      "description": "Quick yes-or-no cards. Thumbs up or down, then one sentence.",
+      "rules": {
+        "mechanic": "yesno",
+        "summary": "Thumbs up or down at the same time, then one sentence each.",
+        "purpose": "Quick answers that often start a good laugh.",
+        "turns": "Take turns reading.",
+        "answer": "Shown: thumbs up or down.",
+        "round_end": "After both sentences.",
+        "scoring": "No points.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "Read the question.",
+          "On three, show thumbs up for yes or thumbs down for no.",
+          "Each of you says one sentence about why."
+        ]
+      },
+      "cards": [
+        {
+          "id": "yes-or-no-001",
+          "text": "Would you enjoy having one evening each week with no phones during dinner?"
+        },
+        {
+          "id": "yes-or-no-002",
+          "text": "Would you go paragliding if it were completely safe?"
+        },
+        {
+          "id": "yes-or-no-003",
+          "text": "Is breakfast the most important meal of the day?"
+        },
+        {
+          "id": "yes-or-no-004",
+          "text": "Would you eat a meal chosen entirely by the other, without seeing the menu?"
+        },
+        {
+          "id": "yes-or-no-005",
+          "text": "Is it okay to recline your seat on a short flight?"
+        },
+        {
+          "id": "yes-or-no-006",
+          "text": "Would you take a first-aid course together?"
+        },
+        {
+          "id": "yes-or-no-007",
+          "text": "Do you believe in love at first sight?"
+        },
+        {
+          "id": "yes-or-no-008",
+          "text": "Do you always want to hear the truth, even when it's awkward?"
+        },
+        {
+          "id": "yes-or-no-009",
+          "text": "Should pineapple ever go on pizza?"
+        },
+        {
+          "id": "yes-or-no-010",
+          "text": "Do you sing in the shower?"
+        },
+        {
+          "id": "yes-or-no-011",
+          "text": "Would you sleep in a tent in the garden for one night?"
+        },
+        {
+          "id": "yes-or-no-012",
+          "text": "Could you go a whole day without speaking?"
+        },
+        {
+          "id": "yes-or-no-013",
+          "text": "Would you wear matching outfits for a family photo?"
+        },
+        {
+          "id": "yes-or-no-014",
+          "text": "Would you go on a holiday where every detail was a surprise?"
+        },
+        {
+          "id": "yes-or-no-015",
+          "text": "Are you a good driver?"
+        },
+        {
+          "id": "yes-or-no-016",
+          "text": "Would you go on a silent retreat for a weekend?"
+        },
+        {
+          "id": "yes-or-no-017",
+          "text": "Should couples know each other's phone passcodes?"
+        },
+        {
+          "id": "yes-or-no-018",
+          "text": "Would you take a job you love for less money?"
+        },
+        {
+          "id": "yes-or-no-019",
+          "text": "Could you go a week without sugar?"
+        },
+        {
+          "id": "yes-or-no-020",
+          "text": "Would you be okay with a pet sleeping in the bedroom?"
+        },
+        {
+          "id": "yes-or-no-021",
+          "text": "Do you reuse gift wrap?"
+        },
+        {
+          "id": "yes-or-no-022",
+          "text": "Do you open presents as soon as you get them?"
+        },
+        {
+          "id": "yes-or-no-023",
+          "text": "Have you ever pretended to like a gift?"
+        },
+        {
+          "id": "yes-or-no-024",
+          "text": "Would you try a food without knowing what it is?"
+        },
+        {
+          "id": "yes-or-no-025",
+          "text": "Is it rude to arrive exactly on time to a party?"
+        },
+        {
+          "id": "yes-or-no-026",
+          "text": "Would you enter a quiz night as a team of two?"
+        },
+        {
+          "id": "yes-or-no-027",
+          "text": "Should the person who cooks be excused from washing up?"
+        },
+        {
+          "id": "yes-or-no-028",
+          "text": "Would you enjoy a weekly game night with friends?"
+        },
+        {
+          "id": "yes-or-no-029",
+          "text": "Would you watch a film at the cinema alone?"
+        },
+        {
+          "id": "yes-or-no-030",
+          "text": "Do you make your bed every morning?"
+        },
+        {
+          "id": "yes-or-no-031",
+          "text": "Should work emails be off-limits at weekends?"
+        },
+        {
+          "id": "yes-or-no-032",
+          "text": "Would you go on a cooking show if you were invited?"
+        },
+        {
+          "id": "yes-or-no-033",
+          "text": "Do you check your phone as soon as you wake up?"
+        },
+        {
+          "id": "yes-or-no-034",
+          "text": "Would you enjoy living somewhere with snow?"
+        },
+        {
+          "id": "yes-or-no-035",
+          "text": "Have you ever laughed at completely the wrong moment?"
+        },
+        {
+          "id": "yes-or-no-036",
+          "text": "Would you give up social media for a month if the other did too?"
+        },
+        {
+          "id": "yes-or-no-037",
+          "text": "Can people really change their habits after thirty?"
+        },
+        {
+          "id": "yes-or-no-038",
+          "text": "Do you read the terms and conditions?"
+        },
+        {
+          "id": "yes-or-no-039",
+          "text": "Should we have a code word for \"let's leave this party\"?"
+        },
+        {
+          "id": "yes-or-no-040",
+          "text": "Do you still have something from your first year at school?"
+        },
+        {
+          "id": "yes-or-no-041",
+          "text": "Would you let the other choose your outfit for a whole day?"
+        },
+        {
+          "id": "yes-or-no-042",
+          "text": "Do you like it when people sing \"Happy Birthday\" to you in public?"
+        }
+      ],
+      "sort_order": 100
+    },
+    {
+      "slug": "two-truths-one-fib",
+      "kind": "game",
+      "name": "Two Truths and a Fib",
+      "description": "Two true facts and one fib about a topic. Spot the fib.",
+      "rules": {
+        "mechanic": "fib",
+        "summary": "Say two true things and one fib. The other spots the fib.",
+        "purpose": "Learn surprising facts about each other and see who's the better bluffer.",
+        "turns": "Swap readers each round.",
+        "answer": "Spoken, then guessed.",
+        "round_end": "After the fib is revealed.",
+        "scoring": "1 point for catching the fib. 1 point to the reader if it slips through.",
+        "video_call": "Works on a video call.",
+        "steps": [
+          "The reader gets the topic on the card.",
+          "They say three short statements about it: two true and one made up.",
+          "The other guesses which one is the fib."
+        ]
+      },
+      "cards": [
+        {
+          "id": "two-truths-one-fib-001",
+          "topic": "your school years",
+          "text": "Two truths and a fib about your school years."
+        },
+        {
+          "id": "two-truths-one-fib-002",
+          "topic": "food you've tried",
+          "text": "Two truths and a fib about food you've tried."
+        },
+        {
+          "id": "two-truths-one-fib-003",
+          "topic": "places you've visited",
+          "text": "Two truths and a fib about places you've visited."
+        },
+        {
+          "id": "two-truths-one-fib-004",
+          "topic": "your childhood",
+          "text": "Two truths and a fib about your childhood."
+        },
+        {
+          "id": "two-truths-one-fib-005",
+          "topic": "your first job",
+          "text": "Two truths and a fib about your first job."
+        },
+        {
+          "id": "two-truths-one-fib-006",
+          "topic": "things you're scared of",
+          "text": "Two truths and a fib about things you're scared of."
+        },
+        {
+          "id": "two-truths-one-fib-007",
+          "topic": "your family",
+          "text": "Two truths and a fib about your family."
+        },
+        {
+          "id": "two-truths-one-fib-008",
+          "topic": "sports and games",
+          "text": "Two truths and a fib about sports and games."
+        },
+        {
+          "id": "two-truths-one-fib-009",
+          "topic": "your phone",
+          "text": "Two truths and a fib about your phone."
+        },
+        {
+          "id": "two-truths-one-fib-010",
+          "topic": "things you've broken",
+          "text": "Two truths and a fib about things you've broken."
+        },
+        {
+          "id": "two-truths-one-fib-011",
+          "topic": "your morning routine",
+          "text": "Two truths and a fib about your morning routine."
+        },
+        {
+          "id": "two-truths-one-fib-012",
+          "topic": "gifts you've received",
+          "text": "Two truths and a fib about gifts you've received."
+        },
+        {
+          "id": "two-truths-one-fib-013",
+          "topic": "your friends",
+          "text": "Two truths and a fib about your friends."
+        },
+        {
+          "id": "two-truths-one-fib-014",
+          "topic": "times you got lost",
+          "text": "Two truths and a fib about times you got lost."
+        },
+        {
+          "id": "two-truths-one-fib-015",
+          "topic": "things you've cooked",
+          "text": "Two truths and a fib about things you've cooked."
+        },
+        {
+          "id": "two-truths-one-fib-016",
+          "topic": "your hidden talents",
+          "text": "Two truths and a fib about your hidden talents."
+        },
+        {
+          "id": "two-truths-one-fib-017",
+          "topic": "films and series",
+          "text": "Two truths and a fib about films and series."
+        },
+        {
+          "id": "two-truths-one-fib-018",
+          "topic": "embarrassing moments",
+          "text": "Two truths and a fib about embarrassing moments."
+        },
+        {
+          "id": "two-truths-one-fib-019",
+          "topic": "your teenage years",
+          "text": "Two truths and a fib about your teenage years."
+        },
+        {
+          "id": "two-truths-one-fib-020",
+          "topic": "what's in your bag right now",
+          "text": "Two truths and a fib about what's in your bag right now."
+        },
+        {
+          "id": "two-truths-one-fib-021",
+          "topic": "weddings you've been to",
+          "text": "Two truths and a fib about weddings you've been to."
+        },
+        {
+          "id": "two-truths-one-fib-022",
+          "topic": "animals you've met",
+          "text": "Two truths and a fib about animals you've met."
+        },
+        {
+          "id": "two-truths-one-fib-023",
+          "topic": "your strange habits",
+          "text": "Two truths and a fib about your strange habits."
+        },
+        {
+          "id": "two-truths-one-fib-024",
+          "topic": "holidays and trips",
+          "text": "Two truths and a fib about holidays and trips."
+        },
+        {
+          "id": "two-truths-one-fib-025",
+          "topic": "things you collected as a child",
+          "text": "Two truths and a fib about things you collected as a child."
+        },
+        {
+          "id": "two-truths-one-fib-026",
+          "topic": "your favourite foods",
+          "text": "Two truths and a fib about your favourite foods."
+        },
+        {
+          "id": "two-truths-one-fib-027",
+          "topic": "injuries you've had",
+          "text": "Two truths and a fib about injuries you've had."
+        },
+        {
+          "id": "two-truths-one-fib-028",
+          "topic": "things you believed as a child",
+          "text": "Two truths and a fib about things you believed as a child."
+        },
+        {
+          "id": "two-truths-one-fib-029",
+          "topic": "famous people you've seen",
+          "text": "Two truths and a fib about famous people you've seen."
+        },
+        {
+          "id": "two-truths-one-fib-030",
+          "topic": "your plans for this month",
+          "text": "Two truths and a fib about your plans for this month."
+        },
+        {
+          "id": "two-truths-one-fib-031",
+          "topic": "rules you broke as a child",
+          "text": "Two truths and a fib about rules you broke as a child."
+        },
+        {
+          "id": "two-truths-one-fib-032",
+          "topic": "things you've won",
+          "text": "Two truths and a fib about things you've won."
+        }
+      ],
+      "sort_order": 110
+    },
+    {
+      "slug": "act-it-out",
+      "kind": "game",
+      "name": "Act It Out",
+      "description": "The actor sees the card. No words, 60 seconds.",
+      "rules": {
+        "mechanic": "act",
+        "summary": "Act it out without words. The other guesses.",
+        "purpose": "Silly, physical fun that works well on a call.",
+        "turns": "Swap actors each card. Draw on the actor's phone so the guesser can't see it.",
+        "answer": "Acted, then guessed.",
+        "round_end": "When it's guessed or the timer ends.",
+        "scoring": "1 point to you both if it's guessed in time.",
+        "video_call": "Works on a video call if the actor steps back so the camera can see them.",
+        "steps": [
+          "The actor taps Reveal and reads the card privately.",
+          "Start the timer and act it out with no words or sounds.",
+          "The other person guesses out loud until they get it or time runs out."
+        ]
+      },
+      "cards": [
+        {
+          "id": "act-it-out-001",
+          "seconds": 60,
+          "text": "Assembling flat-pack furniture without the instructions"
+        },
+        {
+          "id": "act-it-out-002",
+          "seconds": 60,
+          "text": "Getting through airport security in a hurry"
+        },
+        {
+          "id": "act-it-out-003",
+          "seconds": 60,
+          "text": "Looking for your keys in your own bag"
+        },
+        {
+          "id": "act-it-out-004",
+          "seconds": 60,
+          "text": "Trying to parallel park"
+        },
+        {
+          "id": "act-it-out-005",
+          "seconds": 60,
+          "text": "Cooking with a pan that's far too hot"
+        },
+        {
+          "id": "act-it-out-006",
+          "seconds": 60,
+          "text": "Waking up late for an important meeting"
+        },
+        {
+          "id": "act-it-out-007",
+          "seconds": 60,
+          "text": "Carrying too many shopping bags at once"
+        },
+        {
+          "id": "act-it-out-008",
+          "seconds": 60,
+          "text": "Watching your team lose a football match"
+        },
+        {
+          "id": "act-it-out-009",
+          "seconds": 60,
+          "text": "Choosing a wedding cake"
+        },
+        {
+          "id": "act-it-out-010",
+          "seconds": 60,
+          "text": "Waiting for a very slow lift"
+        },
+        {
+          "id": "act-it-out-011",
+          "seconds": 60,
+          "text": "Taking a selfie in strong wind"
+        },
+        {
+          "id": "act-it-out-012",
+          "seconds": 60,
+          "text": "Haggling at a market"
+        },
+        {
+          "id": "act-it-out-013",
+          "seconds": 60,
+          "text": "Learning to ride a bicycle"
+        },
+        {
+          "id": "act-it-out-014",
+          "seconds": 60,
+          "text": "Sitting in a traffic jam on a hot day"
+        },
+        {
+          "id": "act-it-out-015",
+          "seconds": 60,
+          "text": "Opening a stubborn jar"
+        },
+        {
+          "id": "act-it-out-016",
+          "seconds": 60,
+          "text": "Walking barefoot on a very hot beach"
+        },
+        {
+          "id": "act-it-out-017",
+          "seconds": 60,
+          "text": "Trying to stay awake in a long meeting"
+        },
+        {
+          "id": "act-it-out-018",
+          "seconds": 60,
+          "text": "A waiter carrying a full tray"
+        },
+        {
+          "id": "act-it-out-019",
+          "seconds": 60,
+          "text": "Closing a suitcase that's too full"
+        },
+        {
+          "id": "act-it-out-020",
+          "seconds": 60,
+          "text": "Making coffee while half asleep"
+        },
+        {
+          "id": "act-it-out-021",
+          "seconds": 60,
+          "text": "Being the first to arrive at a party"
+        },
+        {
+          "id": "act-it-out-022",
+          "seconds": 60,
+          "text": "Receiving a gift you don't like"
+        },
+        {
+          "id": "act-it-out-023",
+          "seconds": 60,
+          "text": "Hanging a picture that won't stay straight"
+        },
+        {
+          "id": "act-it-out-024",
+          "seconds": 60,
+          "text": "Riding a roller coaster"
+        },
+        {
+          "id": "act-it-out-025",
+          "seconds": 60,
+          "text": "Searching for the TV remote"
+        },
+        {
+          "id": "act-it-out-026",
+          "seconds": 60,
+          "text": "Getting caught in sudden rain"
+        },
+        {
+          "id": "act-it-out-027",
+          "seconds": 60,
+          "text": "Following a home workout video"
+        },
+        {
+          "id": "act-it-out-028",
+          "seconds": 60,
+          "text": "A tour guide in a museum"
+        },
+        {
+          "id": "act-it-out-029",
+          "seconds": 60,
+          "text": "Running to catch a train"
+        },
+        {
+          "id": "act-it-out-030",
+          "seconds": 60,
+          "text": "Eating something extremely spicy"
+        },
+        {
+          "id": "act-it-out-031",
+          "seconds": 60,
+          "text": "Folding a fitted sheet"
+        },
+        {
+          "id": "act-it-out-032",
+          "seconds": 60,
+          "text": "A cat ignoring its owner"
+        },
+        {
+          "id": "act-it-out-033",
+          "seconds": 60,
+          "text": "Teaching a grandparent to use a smartphone"
+        },
+        {
+          "id": "act-it-out-034",
+          "seconds": 60,
+          "text": "Building a sandcastle"
+        },
+        {
+          "id": "act-it-out-035",
+          "seconds": 60,
+          "text": "Breaking your fast at iftar after a long day"
+        },
+        {
+          "id": "act-it-out-036",
+          "seconds": 60,
+          "text": "Changing a flat tyre"
+        },
+        {
+          "id": "act-it-out-037",
+          "seconds": 60,
+          "text": "Unpacking after moving into a new home"
+        },
+        {
+          "id": "act-it-out-038",
+          "seconds": 60,
+          "text": "Hearing your favourite song at a wedding"
+        }
+      ],
+      "sort_order": 120
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+ "version": "2026-11-05",
+ "currency": "AED",
+ "quests": [
+  {
+   "id": "new-dessert",
+   "title": "Try a dessert neither of you has ordered before",
+   "instructions": "Pick it from a menu or bakery and share it.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 40,
+   "category": "food"
+  },
+  {
+   "id": "colour-together",
+   "title": "Colour or create for an hour",
+   "instructions": "Any colouring, drawing or craft, side by side or on a call.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 0,
+   "category": "creative"
+  },
+  {
+   "id": "same-colour-photo",
+   "title": "Take a photo with the same colour theme",
+   "instructions": "Agree on a colour and each take one photo where it stands out.",
+   "setting": "either",
+   "minutes": 15,
+   "budget_aed": 0,
+   "category": "creative"
+  },
+  {
+   "id": "five-song-playlist",
+   "title": "Build a five-song shared playlist",
+   "instructions": "Each add songs until there are five you both like.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "music"
+  },
+  {
+   "id": "date-under-100",
+   "title": "Plan one date under AED 100",
+   "instructions": "Decide what, where and when. Doing it is a bonus.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "future-plan-item",
+   "title": "Finish one small Future Plans item together",
+   "instructions": "Pick something that takes under an hour.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "surprise-voice-note",
+   "title": "Send an unexpected voice note",
+   "instructions": "Something you'd normally only say in person.",
+   "setting": "remote",
+   "minutes": 5,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "recreate-photo",
+   "title": "Recreate an old photograph",
+   "instructions": "Same pose, same place if you can.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "memories"
+  },
+  {
+   "id": "other-picks-film",
+   "title": "Watch a film the other person chose",
+   "instructions": "No vetoes once it's chosen.",
+   "setting": "either",
+   "minutes": 120,
+   "budget_aed": 0,
+   "category": "at-home"
+  },
+  {
+   "id": "phone-free-meal",
+   "title": "Have one phone-free meal",
+   "instructions": "Phones in another room until the plates are empty.",
+   "setting": "either",
+   "minutes": 45,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "future-place",
+   "title": "Choose a place to visit one day",
+   "instructions": "Add it to your Bucket List with one reason each.",
+   "setting": "either",
+   "minutes": 15,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "write-open-when",
+   "title": "Write one Open When letter",
+   "instructions": "Seal it in Togetherverse for the other person.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "reveal-round",
+   "title": "Finish one Reveal Together round",
+   "instructions": "Answer, then reveal together.",
+   "setting": "either",
+   "minutes": 15,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "mood-board",
+   "title": "Make a shared mood board",
+   "instructions": "Start one in Our Creative Studio about anything you like.",
+   "setting": "either",
+   "minutes": 45,
+   "budget_aed": 0,
+   "category": "creative"
+  },
+  {
+   "id": "new-cuisine",
+   "title": "Cook or order from a cuisine new to you",
+   "instructions": "Rate it out of ten together.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 80,
+   "category": "food"
+  },
+  {
+   "id": "add-memory",
+   "title": "Add one memory to Our Universe",
+   "instructions": "With a photo if you have one.",
+   "setting": "either",
+   "minutes": 10,
+   "budget_aed": 0,
+   "category": "memories"
+  },
+  {
+   "id": "walk-call",
+   "title": "Go for a walk while on a call",
+   "instructions": "At least twenty minutes, describe what you see.",
+   "setting": "remote",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "sunrise-or-sunset",
+   "title": "Watch a sunrise or a sunset",
+   "instructions": "Together or at the same time in your two cities.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "outdoors"
+  },
+  {
+   "id": "new-cafe",
+   "title": "Try a café neither of you has been to",
+   "instructions": "Order something you don't usually get.",
+   "setting": "together",
+   "minutes": 60,
+   "budget_aed": 60,
+   "category": "food"
+  },
+  {
+   "id": "handwritten-note",
+   "title": "Leave a handwritten note",
+   "instructions": "Hide it somewhere the other person will find it, or send a photo of it.",
+   "setting": "either",
+   "minutes": 10,
+   "budget_aed": 0,
+   "category": "small-surprises"
+  },
+  {
+   "id": "learn-a-word",
+   "title": "Teach each other a new word",
+   "instructions": "In any language, and use it in a sentence this week.",
+   "setting": "either",
+   "minutes": 10,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "board-game",
+   "title": "Play a board or card game",
+   "instructions": "Best of three.",
+   "setting": "either",
+   "minutes": 45,
+   "budget_aed": 0,
+   "category": "at-home"
+  },
+  {
+   "id": "cook-together",
+   "title": "Cook one full meal together",
+   "instructions": "Starter optional, dessert encouraged.",
+   "setting": "together",
+   "minutes": 90,
+   "budget_aed": 60,
+   "category": "food"
+  },
+  {
+   "id": "plant-something",
+   "title": "Plant or repot something",
+   "instructions": "A herb on the windowsill counts.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 30,
+   "category": "at-home"
+  },
+  {
+   "id": "book-chapter",
+   "title": "Read the same chapter",
+   "instructions": "Then talk about it for ten minutes.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "at-home"
+  },
+  {
+   "id": "gratitude-list",
+   "title": "Swap three things you appreciated this month",
+   "instructions": "Say them out loud on a call or in person.",
+   "setting": "either",
+   "minutes": 10,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "small-gift",
+   "title": "Give a small gift under AED 30",
+   "instructions": "Something that made you think of them.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 30,
+   "category": "small-surprises"
+  },
+  {
+   "id": "new-walk",
+   "title": "Walk somewhere you've never walked",
+   "instructions": "A new street, park or beach.",
+   "setting": "either",
+   "minutes": 45,
+   "budget_aed": 0,
+   "category": "outdoors"
+  },
+  {
+   "id": "museum-or-gallery",
+   "title": "Visit a museum or gallery",
+   "instructions": "Or a virtual tour if you're apart.",
+   "setting": "either",
+   "minutes": 90,
+   "budget_aed": 60,
+   "category": "discovery"
+  },
+  {
+   "id": "photo-of-the-day",
+   "title": "Share one photo every day for a week",
+   "instructions": "Of anything, no captions needed.",
+   "setting": "remote",
+   "minutes": 5,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "breakfast-date",
+   "title": "Have breakfast together",
+   "instructions": "In person, or at the same time on a call.",
+   "setting": "either",
+   "minutes": 45,
+   "budget_aed": 40,
+   "category": "food"
+  },
+  {
+   "id": "dream-home-room",
+   "title": "Design one room of your future home",
+   "instructions": "Pick colours, one piece of furniture and the lighting.",
+   "setting": "either",
+   "minutes": 45,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "childhood-photos",
+   "title": "Swap three childhood photos",
+   "instructions": "And the story behind each one.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "memories"
+  },
+  {
+   "id": "try-a-class",
+   "title": "Try a free online class together",
+   "instructions": "Anything from drawing to a language.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 0,
+   "category": "discovery"
+  },
+  {
+   "id": "compliment-day",
+   "title": "Give one specific compliment a day for a week",
+   "instructions": "Specific, not general.",
+   "setting": "either",
+   "minutes": 5,
+   "budget_aed": 0,
+   "category": "small-surprises"
+  },
+  {
+   "id": "picnic",
+   "title": "Have a picnic",
+   "instructions": "Even on the living-room floor.",
+   "setting": "together",
+   "minutes": 90,
+   "budget_aed": 50,
+   "category": "outdoors"
+  },
+  {
+   "id": "song-dedication",
+   "title": "Dedicate a song and explain why",
+   "instructions": "One each.",
+   "setting": "either",
+   "minutes": 10,
+   "budget_aed": 0,
+   "category": "music"
+  },
+  {
+   "id": "tidy-together",
+   "title": "Sort out one drawer or shelf together",
+   "instructions": "With music on.",
+   "setting": "together",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "at-home"
+  },
+  {
+   "id": "wedding-detail",
+   "title": "Decide one wedding detail together",
+   "instructions": "Small or big, just decide it.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "wedding"
+  },
+  {
+   "id": "mini-trip-plan",
+   "title": "Plan a weekend away",
+   "instructions": "Destination, where to stay and one thing to do.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "new-route",
+   "title": "Drive or ride a route you've never taken",
+   "instructions": "No map until you get lost a little.",
+   "setting": "together",
+   "minutes": 60,
+   "budget_aed": 30,
+   "category": "outdoors"
+  },
+  {
+   "id": "cook-family-dish",
+   "title": "Cook a dish from one of your families",
+   "instructions": "Ask for the recipe first.",
+   "setting": "either",
+   "minutes": 90,
+   "budget_aed": 60,
+   "category": "food"
+  },
+  {
+   "id": "dessert-bake",
+   "title": "Bake something",
+   "instructions": "Cookies, a cake or bread.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 30,
+   "category": "food"
+  },
+  {
+   "id": "game-on-call",
+   "title": "Play an online game on a call",
+   "instructions": "Word games and drawing games count.",
+   "setting": "remote",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "connection"
+  },
+  {
+   "id": "stargaze",
+   "title": "Find the moon at the same time",
+   "instructions": "Or the brightest star you can see.",
+   "setting": "either",
+   "minutes": 15,
+   "budget_aed": 0,
+   "category": "outdoors"
+  },
+  {
+   "id": "memory-jar",
+   "title": "Write five memories on slips of paper",
+   "instructions": "Keep them for a future Memory Capsule.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "memories"
+  },
+  {
+   "id": "volunteer",
+   "title": "Do one good deed together",
+   "instructions": "Donate, help someone, or volunteer for an hour.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 50,
+   "category": "discovery"
+  },
+  {
+   "id": "movie-marathon",
+   "title": "Watch two films back to back",
+   "instructions": "One chosen by each.",
+   "setting": "either",
+   "minutes": 240,
+   "budget_aed": 0,
+   "category": "at-home"
+  },
+  {
+   "id": "new-sport",
+   "title": "Try a sport neither of you plays",
+   "instructions": "Padel, bowling or table tennis.",
+   "setting": "together",
+   "minutes": 60,
+   "budget_aed": 100,
+   "category": "discovery"
+  },
+  {
+   "id": "spa-evening",
+   "title": "Have a calm evening at home",
+   "instructions": "Face masks, tea and an early night.",
+   "setting": "either",
+   "minutes": 90,
+   "budget_aed": 40,
+   "category": "at-home"
+  },
+  {
+   "id": "local-history",
+   "title": "Learn one piece of local history",
+   "instructions": "Visit a historic place or read about it together.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 0,
+   "category": "discovery"
+  },
+  {
+   "id": "budget-challenge",
+   "title": "Plan a full day out for AED 150",
+   "instructions": "Including food.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "photo-walk",
+   "title": "Go on a photo walk",
+   "instructions": "Pick your best three photos afterwards.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 0,
+   "category": "creative"
+  },
+  {
+   "id": "write-a-story",
+   "title": "Write a short story one sentence at a time",
+   "instructions": "Take turns until it has an ending.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "creative"
+  },
+  {
+   "id": "learn-recipe",
+   "title": "Learn a recipe from a video",
+   "instructions": "Each make it in your own kitchen.",
+   "setting": "either",
+   "minutes": 60,
+   "budget_aed": 50,
+   "category": "food"
+  },
+  {
+   "id": "future-letter",
+   "title": "Write a note to yourselves for next year",
+   "instructions": "Add it to a Memory Capsule.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "memories"
+  },
+  {
+   "id": "dance-in-kitchen",
+   "title": "Dance to one full song in the kitchen",
+   "instructions": "No audience required.",
+   "setting": "together",
+   "minutes": 5,
+   "budget_aed": 0,
+   "category": "small-surprises"
+  },
+  {
+   "id": "coffee-tasting",
+   "title": "Taste three coffees or teas",
+   "instructions": "Pick a favourite together.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 40,
+   "category": "food"
+  },
+  {
+   "id": "weekend-no-plans",
+   "title": "Spend a morning with no plans",
+   "instructions": "Decide everything as you go.",
+   "setting": "together",
+   "minutes": 180,
+   "budget_aed": 0,
+   "category": "at-home"
+  },
+  {
+   "id": "draw-each-other",
+   "title": "Draw each other",
+   "instructions": "Quickly, badly and with love.",
+   "setting": "either",
+   "minutes": 15,
+   "budget_aed": 0,
+   "category": "creative"
+  },
+  {
+   "id": "shared-goal",
+   "title": "Pick one shared goal for next month",
+   "instructions": "Write it in Future Plans.",
+   "setting": "either",
+   "minutes": 20,
+   "budget_aed": 0,
+   "category": "planning"
+  },
+  {
+   "id": "night-walk",
+   "title": "Take an evening walk",
+   "instructions": "Somewhere quiet, at least half an hour.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "outdoors"
+  },
+  {
+   "id": "favourite-place",
+   "title": "Show the other a favourite place",
+   "instructions": "In person, or by video.",
+   "setting": "either",
+   "minutes": 30,
+   "budget_aed": 0,
+   "category": "discovery"
+  }
+ ]
+}

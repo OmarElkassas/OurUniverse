@@ -1,18 +1,20 @@
 /*
- * Our Universe service worker (v39).
+ * Our Universe service worker (v40).
  * Network first for the app's own files, so a new release shows up on the
  * next launch; the cached copy is used only when offline. Supabase, fonts and
  * the CDN script are cross-origin and are never intercepted or cached here,
  * so no personal data is stored by this worker.
  */
-const CACHE = 'our-universe-v39';
+const CACHE = 'our-universe-v40';
 const SHELL = [
   './',
   './index.html',
-  './style.css?v=39',
-  './app.js?v=39',
-  './config.js?v=39',
-  './manifest.webmanifest?v=39',
+  './style.css?v=40',
+  './app.js?v=40',
+  './togetherverse.js?v=40',
+  './content/quest_library.json',
+  './config.js?v=40',
+  './manifest.webmanifest?v=40',
   './icon-192.png',
   './icon-512.png',
   './apple-touch-icon.png',

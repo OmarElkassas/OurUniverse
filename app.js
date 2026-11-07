@@ -17,7 +17,7 @@
  *   storage bucket "memories" (private)
  */
 (function () {
-  const VERSION = '39';
+  const VERSION = '40';
   const cfg = window.APP_CONFIG || {};
   const $ = (id) => document.getElementById(id);
   const qsa = (sel, root) => Array.from((root || document).querySelectorAll(sel));
@@ -36,6 +36,7 @@
 
   const SECTIONS = [
     { id: 'dashboard', label: 'Home', icon: '⌂' },
+    { id: 'together', label: 'O&H Togetherverse', icon: '✦' },
     { id: 'plan', label: 'Future Plans', icon: '⌁' },
     { id: 'discussion', label: 'Discussions', icon: '◌' },
     { id: 'game', label: 'Couple Games', icon: '♟' },
@@ -43,12 +44,13 @@
     { id: 'memory', label: 'Memories & Photos', icon: '◇' },
     { id: 'bucket', label: 'Bucket List', icon: '☆' },
     { id: 'date', label: 'Important Dates', icon: '◷' },
-    { id: 'letter', label: 'Letters', icon: '✉' },
+    // Replaced by Open When in Togetherverse; kept so earlier letters stay reachable.
+    { id: 'letter', label: 'Earlier letters', icon: '✉', hidden: true },
     { id: 'journal', label: 'Shared Journal', icon: '☷' },
     { id: 'dateidea', label: 'Date Ideas', icon: '♡' },
   ];
   const SECTION = Object.fromEntries(SECTIONS.map((s) => [s.id, s]));
-  const BOTTOM_TABS = ['dashboard', 'plan', 'discussion', 'game'];
+  const BOTTOM_TABS = ['dashboard', 'plan', 'together', 'discussion', 'game'];
 
   // The seven simple modules share the entries table; this decides which
   // fields each one shows and what its statuses are. Existing values that are
@@ -294,7 +296,6 @@
     $('drawer').inert = mqMobile.matches && !open;
     $('drawer').setAttribute('aria-hidden', String(mqMobile.matches && !open));
     $('menuBtn').setAttribute('aria-expanded', String(open));
-    $('moreBtn').setAttribute('aria-expanded', String(open));
   }
   function openDrawer() {
     if (!mqMobile.matches || drawerIsOpen()) return;
@@ -513,33 +514,51 @@
     if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
     return Date.now().toString(36) + '-' + Math.random().toString(36).slice(2);
   }
-  async function uploadPhoto(file) {
-    const blob = await compressImage(file);
-    if (blob.size > 5 * 1024 * 1024) throw new Error('That photo is too large, even after resizing (5 MB maximum).');
-    const type = blob.type || 'image/jpeg';
-    const ext = type === 'image/png' ? 'png' : type === 'image/webp' ? 'webp' : 'jpg';
-    const path = `${state.user.id}/${newId()}.${ext}`;
-    await q('Uploading the photo', state.db.storage.from(PHOTO_BUCKET).upload(path, blob, { contentType: type, upsert: false }));
+  // Uploads go to a private bucket under a random name. Images are resized
+  // first; audio is checked for type and size (5 MB, a few minutes).
+  const AUDIO_TYPES = ['audio/mpeg', 'audio/mp4', 'audio/aac', 'audio/x-m4a', 'audio/webm', 'audio/ogg', 'audio/wav'];
+  async function uploadFile(file, opts) {
+    const o = Object.assign({ bucket: PHOTO_BUCKET, prefix: state.user.id, kind: 'image' }, opts || {});
+    let blob = file;
+    let type = file.type || '';
+    let ext;
+    if (o.kind === 'audio') {
+      if (!AUDIO_TYPES.includes(type)) throw new Error('Choose an audio file (MP3, M4A, AAC, WebM, OGG or WAV).');
+      if (file.size > 5 * 1024 * 1024) throw new Error('That voice note is too large (5 MB maximum, about 5 minutes).');
+      ext = { 'audio/mpeg': 'mp3', 'audio/mp4': 'm4a', 'audio/x-m4a': 'm4a', 'audio/aac': 'aac', 'audio/webm': 'webm', 'audio/ogg': 'ogg', 'audio/wav': 'wav' }[type];
+    } else {
+      blob = await compressImage(file);
+      if (blob.size > 5 * 1024 * 1024) throw new Error('That photo is too large, even after resizing (5 MB maximum).');
+      type = blob.type || 'image/jpeg';
+      ext = type === 'image/png' ? 'png' : type === 'image/webp' ? 'webp' : 'jpg';
+    }
+    const path = `${o.prefix}/${newId()}.${ext}`;
+    await q(o.kind === 'audio' ? 'Uploading the voice note' : 'Uploading the photo',
+      state.db.storage.from(o.bucket).upload(path, blob, { contentType: type, upsert: false }));
     return path;
   }
-  function removePhoto(path) {
+  const uploadPhoto = (file) => uploadFile(file, {});
+  function removeFile(bucket, path) {
     if (!path) return;
-    state.photoUrls.delete(path);
-    state.db.storage.from(PHOTO_BUCKET).remove([path]).catch(() => { /* best effort */ });
+    state.photoUrls.delete(bucket + ':' + path);
+    state.db.storage.from(bucket).remove([path]).catch(() => { /* best effort */ });
   }
-  async function photoUrls(paths) {
+  const removePhoto = (path) => removeFile(PHOTO_BUCKET, path);
+  async function signedUrls(bucket, paths) {
     const now = Date.now();
-    const need = paths.filter((p) => { const c = state.photoUrls.get(p); return !c || c.expires < now + 60000; });
+    const key = (p) => bucket + ':' + p;
+    const need = paths.filter((p) => { const c = state.photoUrls.get(key(p)); return !c || c.expires < now + 60000; });
     if (need.length) {
       try {
-        const { data } = await q('Loading photos', state.db.storage.from(PHOTO_BUCKET).createSignedUrls(need, 3600));
-        for (const r of data || []) if (r.signedUrl) state.photoUrls.set(r.path, { url: r.signedUrl, expires: now + 3600000 });
+        const { data } = await q('Loading media', state.db.storage.from(bucket).createSignedUrls(need, 3600));
+        for (const r of data || []) if (r.signedUrl) state.photoUrls.set(key(r.path), { url: r.signedUrl, expires: now + 3600000 });
       } catch (err) {
         console.warn(err);
       }
     }
-    return paths.map((p) => (state.photoUrls.get(p) || {}).url || null);
+    return paths.map((p) => (state.photoUrls.get(key(p)) || {}).url || null);
   }
+  const photoUrls = (paths) => signedUrls(PHOTO_BUCKET, paths);
 
   // Decks
   async function loadDeck(kind) {
@@ -579,12 +598,12 @@
   /* ------------------------------------------------------------------ */
 
   function parseHash() {
-    const m = /^#\/([a-z]+)(?:\/([^/?#]+))?/.exec(location.hash || '');
+    const m = /^#\/([a-z]+)(?:\/([^?#]+))?/.exec(location.hash || '');
     const section = m && SECTION[m[1]] ? m[1] : 'dashboard';
     return { section, id: m && m[2] ? decodeURIComponent(m[2]) : null };
   }
   function go(section, id) {
-    const hash = '#/' + section + (id ? '/' + encodeURIComponent(id) : '');
+    const hash = '#/' + section + (id ? '/' + String(id).split('/').map(encodeURIComponent).join('/') : '');
     if (location.hash === hash) {
       state.route = parseHash();
       render();
@@ -599,7 +618,7 @@
   });
 
   function buildNav() {
-    $('nav').innerHTML = SECTIONS.map((s) =>
+    $('nav').innerHTML = SECTIONS.filter((s) => !s.hidden).map((s) =>
       `<button type="button" data-nav="${s.id}"><span aria-hidden="true">${s.icon}</span> ${esc(s.label)}</button>`).join('');
     const me = state.members.get(state.user.id);
     $('whoami').textContent = me ? `Signed in as ${me}` : '';
@@ -634,6 +653,7 @@
 
   function render() {
     stopTimer();
+    if (window.OU_TV) window.OU_TV.leave();
     const { section, id } = state.route;
     const meta = SECTION[section];
     document.title = `${meta.label} · Our Universe`;
@@ -646,11 +666,14 @@
       b.classList.toggle('active', on);
       if (on) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
     });
-    $('moreBtn').classList.toggle('active', !BOTTOM_TABS.includes(section));
     if (section === 'dashboard') viewDashboard();
     else if (section === 'plan') viewPlans(id);
     else if (section === 'discussion' || section === 'game') viewDeck(section);
-    else viewModule(section);
+    else if (section === 'together') {
+      setAdd(null);
+      if (window.OU_TV) window.OU_TV.view(id);
+      else setContent(errorBlock("Togetherverse didn't load. Check your connection and refresh."));
+    } else viewModule(section);
   }
 
   // One delegated handler per event type for everything inside #content,
@@ -675,15 +698,22 @@
         case 'dates': openDatesForm(); break;
         case 'more': el.closest('.card').classList.toggle('expanded'); el.textContent = el.closest('.card').classList.contains('expanded') ? 'Show less' : 'Show more'; break;
         case 'retry': render(); break;
-        default: await onDeckClick(act, el);
+        default:
+          if (act.startsWith('tv-') && window.OU_TV) await window.OU_TV.onClick(act, el, ev);
+          else await onDeckClick(act, el);
       }
     } catch (err) {
       fail(err);
-      render();
+      // Togetherverse views keep what was typed; everything else re-renders.
+      if (!act.startsWith('tv-')) render();
     }
   }
   async function onContentChange(ev) {
     const el = ev.target;
+    if (el.matches('[data-tv-change]') && window.OU_TV) {
+      try { await window.OU_TV.onChange(el, ev); } catch (err) { fail(err); }
+      return;
+    }
     if (!el.matches('[data-status]')) return;
     const entry = state.byId.get(el.dataset.status);
     if (!entry) return;
@@ -796,6 +826,8 @@
           </button></li>`;
         }).join('')}</ul></section>` : ''}
 
+      <div id="tvDashSlot"></div>
+
       <section class="love-card">
         <p class="eyebrow">TODAY'S VERY SERIOUS QUESTION</p>
         <h3>Will you keep building this universe with me?</h3>
@@ -817,6 +849,7 @@
     };
     no.onpointerenter = dodge;
     no.onclick = dodge;
+    if (window.OU_TV) window.OU_TV.dashboardPanel($('tvDashSlot'));
   }
 
   /* ------------------------------------------------------------------ */
@@ -1675,6 +1708,7 @@
   let authMessage = '';
 
   function showAuth(message) {
+    if (window.OU_TV) window.OU_TV.stop();
     state.user = null;
     state.entries = [];
     state.decks = { discussion: null, game: null };
@@ -1722,6 +1756,7 @@
     }
     state.route = parseHash();
     render();
+    if (window.OU_TV) window.OU_TV.start();
   }
 
   async function signIn(ev) {
@@ -1797,7 +1832,6 @@
       showAuth();
     });
     $('menuBtn').addEventListener('click', openDrawer);
-    $('moreBtn').addEventListener('click', openDrawer);
     $('closeDrawer').addEventListener('click', () => { closeDrawer(); $('menuBtn').focus(); });
     $('drawerOverlay').addEventListener('click', () => closeDrawer());
     $('nav').addEventListener('click', async (e) => {
@@ -1841,7 +1875,7 @@
       });
       // Tapping the dark backdrop closes small dialogs, but never the entry
       // form, so a stray tap can't throw away what you typed.
-      if (d.id !== 'entryDialog' && d.id !== 'passwordDialog') {
+      if (d.id !== 'entryDialog' && d.id !== 'passwordDialog' && d.id !== 'tvDialog') {
         d.addEventListener('click', (e) => { if (e.target === d) closeDialog(d.id); });
       }
     });
@@ -1883,7 +1917,8 @@
       if (Date.now() - state.loadedAt < 60000) return;
       try {
         await Promise.all([loadEntries(), loadSettings()]);
-        if (state.route.section !== 'discussion' && state.route.section !== 'game') render();
+        if (!['discussion', 'game', 'together'].includes(state.route.section)) render();
+        if (window.OU_TV) window.OU_TV.refreshBadge();
       } catch (err) {
         console.warn(err);
       }
@@ -1920,6 +1955,15 @@
   }
 
   window.OU_VERSION = VERSION;
+  // Shared helpers for togetherverse.js (loaded after this file). One object,
+  // so the two scripts never redefine each other's functions.
+  window.OU = {
+    VERSION, state, $, qsa, esc, sid, cap, plural, q, AppError, friendlyError, isMissingSchema, toast, fail,
+    openDialog, closeDialog, confirmAction, setContent, setAdd, go, render, errorBlock, storeGet, storeSet,
+    localDate, localDateTime, today, daysBetween, isoDay, fmtDay, fmtTime, relDays, newId, compressImage,
+    uploadFile, removeFile, signedUrls, insertEntry, updateEntry, loadEntries, openEntryForm, kids, lineage,
+    isDone, levelName, depthOf, PHOTO_BUCKET,
+  };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
   else boot();
 })();
